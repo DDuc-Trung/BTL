@@ -1,0 +1,560 @@
+body{
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.homepage{
+  background-image: url(./cau-vang-da-nang.jpg);
+  height:100%;
+  width: 100%;
+}
+
+
+body.dark{
+  background-color: #565975;
+  color: white;
+  
+}
+ 
+
+body.light {
+  background-color: white;
+  
+  
+}
+
+
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.logo {
+    height: 90px;
+    width: 150px;
+    mix-blend-mode: darken; /*xóa phông logo*/
+    
+    
+    
+}
+
+
+
+/*
+<button type="button" class="searchbox"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+*/
+
+#search-box{
+  background-color: #fff;
+  border-radius: 30px;
+  border: #000 solid 2px;
+}
+
+#search-box  #search-text{
+  border: none;
+  outline: none;
+  background: none;
+  
+  font-size: 18px;
+  transition: all 0.25s ease-in-out;
+  width: 300px;
+  height: 45px;
+
+}
+
+
+
+#search-box  #search-btn{
+  cursor: pointer;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  
+
+}
+
+
+.aboutus{
+    text-decoration: none;
+    
+    font-size: 14px;
+    padding-left: 190px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+
+}
+
+.contact{
+    text-decoration: none;
+
+    font-size: 14px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+/*
+.searchbox{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 3px solid black;
+  background-color: none;
+  cursor: pointer;
+  mix-blend-mode: darken;
+    
+}
+  */
+
+
+.darkmode {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 3px solid black;
+  background-color: white;
+  cursor: pointer;
+  mix-blend-mode: darken;
+}
+.sun{
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.menu{
+  padding-left: 60px;
+}
+
+.searchbox{
+  margin-left: 5px;
+}
+
+.logo{
+  /*
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  */
+  position: relative;
+  left: 500px;
+}
+
+.darkmode{
+  margin-right: 5px;
+}
+
+.iconvn{
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 50px;
+    cursor: pointer;    
+    mix-blend-mode: darken;    
+}
+
+.vn{
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+*/
+
+
+
+.slogan h1{
+    font-size: 65px;
+
+}
+
+.slogan h3{
+    font-size: 20px;
+
+}
+
+.slogan{
+    color: white;
+    width: 1300px;
+    height:70vh;
+    background: url(./cau-vang-da-nang.jpg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+    background-position: center;
+    border-radius: 50px;
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 125px;
+}
+
+.background {
+    border-radius: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.discover{
+    border: 2px solid white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+  
+  /*end*/
+  .end{
+    position: absolute;
+    top:390vh;
+    width: 100vw;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  
+
+    .container1 {
+      text-align: center;
+      padding: 6%;
+    }
+    
+    /* Vòng tròn */       
+    .circles {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+    
+    .circle img{
+      border-radius: 50%;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+  
+    /*Phóng to ảnh khi trỏ chuột*/
+    .circle img:hover{
+      transform: scale(1.5);
+      opacity: 1;
+    }
+  
+    /*Làm mờ ảnh không trỏ*/
+    .circle img:not(:hover){
+      filter: blur(5px);
+    }
+  
+  
+    
+    .circle.black1 {
+      margin-top: 100px;
+      margin-left: 60px;
+    }
+    .circle.black2 {
+      margin-left: 60px;
+    }
+    .circle.black3 {
+      margin-top: 100px;
+      margin-left: 60px;
+    }
+    .circle.black4 {
+      
+      margin-left: 60px;
+    }
+    /* Thông tin dự án */
+    .project-info {
+      padding: 2%;
+      background-color: #bfa6a6;
+      color: black;
+    }
+    
+    .project-info h1 {
+      font-size: 50px;
+      font-family: 'Brush Script MT', serif;
+      margin: 0px auto;
+      text-align: center;
+    }
+    
+    /* Bảng */
+    .memberstb {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-family:'Times New Roman', serif;
+      font-size: 18px;
+  
+    }
+    
+    
+    .memberstb td {
+      border: 0px solid;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 110px;
+    }
+  
+  
+    .bamien{
+      position: absolute;
+      top:190vh;
+      width: 100vw;
+      height:80vh;
+      max-height: 80vh;
+    }
+  
+  .bamien button{
+    height: 100px;
+    width: 400px;
+    border-radius: 125px;
+    cursor: pointer;
+  
+    
+    font-size: 60px;
+    font-family: 'Brush Script MT', serif;
+  
+    background-color: #a1dcd8;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 auto;
+  
+    transition: background-color 0.3s ease;
+  }
+  
+  .bamien button:hover{
+    background-color: aquamarine;
+  }
+  
+  .buttonbamien{
+    width: 100%;
+    
+  }
+  
+  
+  .bac{
+    background-image: url(./Miền\ Bắc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    
+  }
+  
+  .nam{
+    background-image: url(./Miền\ Nam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;      
+  }
+  
+  .trung{
+    background-image: url(./Miền\ Trung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+  }
+  
+  
+  /*Quân*/
+  
+  
+  
+  @font-face {
+    font-family: 'Mulled Wine Season';
+    src: url("fonts/MulledWineSeason-Medium.otf") format('opentype');
+    font-style: normal;
+    font-size: 2.65625rem;
+  }
+  
+  .slideshow{
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+  }
+  .img {
+    position:absolute;
+    width:50vw;
+    height: 100vh; 
+    left:0;
+  }
+
+  /*Hiệu ứng chuyển ảnh*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 41vh;
+    padding: 16px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /*Hiêu ứng chuyển ảnh*/
+  
+  .next {
+    left:46vw;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .dott{
+    position:absolute;
+    top: 80vh;
+    left:18vw;
+  }
+  
+  .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: lightblue;
+  }
+  
+  .text {
+    position: absolute;
+    width: 42vw;
+    left: 53vw;
+    top: 2vh;
+  }
+  .heading {
+    padding-top:3vh;
+    letter-spacing: 3px; 
+    font-family: 'Mulled Wine Season'; 
+    font-size: 45px; 
+  }
+  
+  .content {
+    position: absolute;
+    top:20vh;
+    font-family: "Quicksand";
+    font-size: 30px; 
+    line-height: 35px; 
+    left:1vw;
+  }
+  
+  .more{
+    font-family: "Sedgwick Ave";
+    word-spacing: 1.5px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size:33px;
+    mix-blend-mode: darken;
+  }
+  
+  
+  .abc img{
+    mix-blend-mode: darken;
+  }
+  
+  .abc{
+    /*
+      font-family: "Sedgwick Ave";
+      text-transform: uppercase;
+      position: absolute;
+      padding-top: 8rem;
+      left:25rem;
+    */
+    font-family: "Sedgwick Ave";
+    text-transform: uppercase;
+    position: absolute;
+    top:62vh;
+    right: 13vw;
+  }
+  
+  .slideshow h1{
+    text-align: center;
+  }
+  
+  i{
+    background: none;
+  }
+  
+  /*Quân*/
+  
+  
+  /*Mẹo du lịch*/
+  #meodulich{
+    position: absolute;
+    top:280vh;
+    max-height: 90vh;
+    background-image: url(./Canh-dep-thien-nhien-Viet-Nam-88.jpg);
+    text-align: center;
+    font-size: 30px;
+    color: #ffff;
+    background-size: cover;
+    margin-top: 15vh;
+  }
+  
+  #meodulich h1{
+    font-size: 4.5rem;
+  }
+  
+  #meodulich h2{
+    font-size: 3.5rem;
+  }
+  
+  
+  .square{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+  }
+  
+  .items{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
