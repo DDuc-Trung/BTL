@@ -4,6 +4,8 @@ body{
 
 }
 
+
+
 .homepage{
   background-image: url(./cau-vang-da-nang.jpg);
   height:100%;
@@ -51,6 +53,7 @@ a{
   position: relative;
   left: 407px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .lienhe{
@@ -59,6 +62,7 @@ a{
   position: relative;
   left: 437px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .meodl{
@@ -67,6 +71,7 @@ a{
   position: relative;
   left: 477px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /*
@@ -311,16 +316,16 @@ a{
   
   .bamien button{
     height: 100px;
-    width: 400px;
+    width: 600px;
     border-radius: 125px;
     cursor: pointer;
   
     
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Brush Script MT', serif;
   
-    background-color: #a1dcd8;
-  
+    background-color: transparent;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,12 +335,10 @@ a{
     transition: background-color 0.3s ease;
   }
   
-  .bamien button:hover{
-    background-color: aquamarine;
-  }
   
   .buttonbamien{
     width: 100%;
+    
     
   }
   
@@ -377,7 +380,7 @@ a{
   .slideshow{
     position: absolute;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
   }
   .img {
     position:absolute;

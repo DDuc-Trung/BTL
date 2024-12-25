@@ -1,0 +1,55 @@
+  *{
+    box-sizing: border-box;
+  }
+  .bg{
+    margin:1.5% 3%;
+    height: 95vh;
+    background-color: rgb(215, 228, 242);
+    border-radius: 35px;
+    max-height: 100vh;
+  }
+  .ig{
+    position: absolute;
+    top:8vh;
+    width:49%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+    right:6vw;
+    max-height: 100vh;
+  }
+  img{
+    height: 85vh;
+    border-radius: 35px;
+  }
+  body{
+    margin:0;
+  }
+  .wtf{
+    position: absolute;
+    top: 8vh;
+    left: 5vw;
+    border: 3px solid black;
+    height:85vh;
+    width: 36%;
+    background-color: white;
+    border-radius: 35px;
+  }
+  .btn {
+    position: absolute;
+    top:18vh;
+    left: 10vw;
+    display: grid;
+    border: none;
+  }
+  .btn button{
+    background-color: transparent;
+  }
+  .dot{
+    height: 13vh;
+    width: 15vw;
+    border: none;
+    font-size: 35px;
+  }
+.dot:active{
+  border: 2px solid black;
+  border-radius: 28px;
+}

@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel With Us</title>
+  <link rel="stylesheet" href="./stylevcl.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Monda&family=Roboto+Serif:opsz@8..144&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=light_mode" />  <script src="./animation.js"defer></script>
+</head>
+<body class="light">
+
+  <div class="homepage">
+        <div class="menu"  id="topweb">
+            <table>
+              
+              <td>
+                <form action="" id="search-box">
+                  <input type="text" placeholder="   Search:" id="search-text">
+                  <button type="button" id="search-btn"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+                </form>
+              </td>
+
+              <td><img src="./logo.png" alt="" class="logo" id="logoweb"></a></td>
+              <td><a href="mailto:thevinh16102005@gmail.com"><button type="button" class="gopy">Critical</button></a></td>
+              <td><a href="#endweb"><button type="button" class="lienhe">Contact</button></a></td>
+              <td><a href="#meodulich"><button type="button" class="meodl">Traveling tips</button></a></td>
+              <td><button type="button"  class="darkmode" id="darkmodeweb" onclick="changeMode()"> <span class="material-symbols-outlined">light_mode</span> <i class="fa-regular fa-moon"> </i>   </button></td>
+              <td><a href="./tétttt.html"><button type="button" class="iconvn" id="iconvnweb"><img src="./anh.jpg" alt="" class="vn"></button></a></td>
+            </table>
+        </div>
+
+        <div id="items">
+          <div class="item" onclick="currentSlide2(1)">Cao Bằng</div>
+          <div class="item" onclick="currentSlide2(2)"> Hà Giang</div>
+          <div class="item" onclick="currentSlide2(3)">Thái Nguyên</div>
+          <div class="item" onclick="currentSlide2(4)">Lai Châu</div>
+          <div class="item" onclick="currentSlide2(5)">Hà Nam</div>
+          <div class="item" onclick="currentSlide2(6)">Quảng Ninh</div>
+          <div class="item" onclick="currentSlide2(7)">Hà Nội</div>
+          <div class="item" onclick="currentSlide2(8)">Khánh Hòa</div>
+          <div class="item" onclick="currentSlide2(9)">Đà Nẵng</div>
+          <div class="item" onclick="currentSlide2(10)">Bình Định</div>
+          <div class="item" onclick="currentSlide2(11)">Nghệ An</div>
+          <div class="item" onclick="currentSlide2(12)">Hà Tĩnh</div>
+          <div class="item" onclick="currentSlide2(13)">Thừa Thiên Huế</div>
+          <div class="item" onclick="currentSlide2(14)">Bình Thuận</div>
+          <div class="item" onclick="currentSlide2(15)">Quảng Bình</div>
+          <div class="item" onclick="currentSlide2(16)">TP-HCM</div>
+          <div class="item" onclick="currentSlide2(17)">Cần Thơ</div>
+          <div class="item" onclick="currentSlide2(18)">Kiên Giang</div>
+          <div class="item" onclick="currentSlide2(19)">Cà Mau</div>
+          <div class="item" onclick="currentSlide2(20)">Sóc Trăng</div>
+          <div class="item" onclick="currentSlide2(21)">Đồng Tháp</div>
+          <div class="item" onclick="currentSlide2(22)">An Giang</div>
+          <div class="item" onclick="currentSlide2(23)">Bến Tre</div>
+          <div class="item" onclick="currentSlide2(24)">Tây Ninh</div>
+        </div>
+        <div class="background" id="backgroundweb">
+        
+            <div class="slogan" id="sloganweb">
+                <h1>Viet Nam: Find a journey</h1>
+                <h3>Discover the stunning natural wonders, unique historical sites and </h3>
+
+                <h3>rich culture of Vietnam.</h3>
+                
+                <h3>Let's explore 8 UNESCO-recognized scenic spots in Vietnam</h3>
+
+                <button type="button" class="discover" id="discoverweb"><i class="fa-solid fa-circle-chevron-down"></i>  Explore Now</button>
+            </div>
+
+        </div>
+  </div>
+
+
+  <div class="slideshow" id="Slideshow">
+        <div class="mySlides">
+            <img class=" img" src=".\images/q1-1715919655953.jpg" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">Ha Long Bay</h1>
+                <p class="content">Ha Long Bay (Quảng Ninh) is a natural wonder of the world with more than 1,600 limestone islands,
+                    turquoise waters and diverse ecosystems.
+                    Visitors can explore caves,
+                    kayak, and enjoy fresh seafood.
+                    A destination not to be missed!
+                <div class="abc">
+                    <button class="more" id="more-light">
+                      <a href="https://vi.wikipedia.org/wiki/V%E1%BB%8Bnh_H%E1%BA%A1_Long" target="_blank">
+                        <i id="halong" class="fa-solid fa-arrow-right-long fa-3x"></i>
+                      </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images\Son-Doong-Cave-1024x576.png" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">National Park<br>Phong Nha - Ke Bang</h1>
+                <p class="content">Phong Nha - Ke Bang National Park
+                    (Quang Binh) is a world natural heritage,
+                    famous for its magnificent cave system,
+                    including Son Doong - the world's largest cave. It also has primeval tropical forests and rich biodiversity, ideal for exploration and adventure.</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn_qu%E1%BB%91c_gia_Phong_Nha_%E2%80%93_K%E1%BA%BB_B%C3%A0ng" target="_blank">
+                      <i id="phongnha" class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images\photo-1-1651233749641674755749.png" alt="Image "/>                
+            <div class="text">
+                <h1 class="heading">Imperial Citadel of Thang Long</h1>
+                <p class="content">Thang Long Imperial Citadel (Hanoi) is a world cultural heritage, a symbol of more than 1,000 years of history. It was once the political and cultural center of many dynasties, famous for its
+                    relics such as Hanoi Flag Tower, Archaeological Site
+                    18 Hoang Dieu, ... A destination not to be missed to learn about Vietnamese history!</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/Ho%C3%A0ng_th%C3%A0nh_Th%C4%83ng_Long" target="_blank">
+                      <i class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images\thanh-nha-ho-thanh-hoa_.png" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">Ho Dynasty Citadel</h1>
+                <p class="content">The Ho Dynasty Citadel (Thanh Hoa) is a world cultural heritage, built in the 14th century. The citadel stands out with its unique stone architecture, which has stood the test of time, and is a testament to the
+                    construction skills of the Tran - Ho dynasties. An attractive destination for those who love history and ancient architecture.</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/Th%C3%A0nh_nh%C3%A0_H%E1%BB%93" target="_blank">
+                      <i class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images\KINH20THANH20HUE.png" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">Hue Ancient Capital</h1>
+                <p class="content">Hue Ancient Capital (Thua Thien Hue) is a world cultural heritage, once the political and cultural center of the Nguyen Dynasty. It is famous for its Imperial Citadel, royal tombs, and unique royal architecture. The poetic space and Hue royal court music
+                further enhance its appeal.</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/C%E1%BB%91_%C4%91%C3%B4_Hu%E1%BA%BF" target="_blank">
+                      <i class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images\hoi-an-vietnam.png" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">Hoi An Ancient Town</h1>
+                <p class="content">Hoi An Ancient Town (Quang Nam) is a world cultural heritage, famous for its ancient architecture, small alleys and colorful lanterns. Once a bustling trading port, this place preserves the beauty of the cultural exchange between Vietnamese, Chinese and Japanese. Don't forget to enjoy the specialty Cao Lau when you visit!</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/Ph%E1%BB%91_c%E1%BB%95_H%E1%BB%99i_An" target="_blank">
+                      <i class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>  
+        <div class="mySlides">
+            <img class=" img" src="images\thanh-dia-my-son-di-san-van-hoa-the-gioi-noi-xu-quang-2-1210.png" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">My Son Sanctuary</h1>
+                <p class="content">My Son Sanctuary (Quang Nam) is a world cultural heritage, once the religious center of the ancient Champa kingdom. It is famous for its unique temples and towers, bearing the architectural and cultural imprints of Hinduism. An attractive destination for those who love history and archaeology!</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/Th%C3%A1nh_%C4%91%E1%BB%8Ba_M%E1%BB%B9_S%C6%A1n" target="_blank">
+                      <i class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="mySlides">
+            <img class=" img" src="images/chua-bai-dinh-3.jpg" alt="Image "/>
+            <div class="text">
+                <h1 class="heading">Scenic Landscape Complex Trang An</h1>
+                <p class="content">Trang An Scenic Landscape Complex (Ninh Binh) is a mixed world heritage site, featuring majestic limestone
+                    mountain landscapes, mysterious cave systems and
+                    historical relics. This is an ideal destination for
+                    sailing, immersing yourself in nature
+                    and exploring culture.</p>
+                <div class="abc">
+                  <button class="more" id="more-light">
+                    <a href="https://vi.wikipedia.org/wiki/Ch%C3%B9a_B%C3%A1i_%C4%90%C3%ADnh" target="_blank">
+                      <i id="trangan" class="fa-solid fa-arrow-right-long fa-3x"></i>
+                    </a>
+                  </button>
+                    
+                </div>
+            </div>
+        </div> 
+
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        <div class="dott">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span> 
+        </div>
+    
+</div> 
+
+
+
+<div class="bamien">
+  <div class="menubamien">
+    <table class="buttonbamien">
+      <tr class="bac">
+        <td>
+        <button class="northern bamienn" type="button" id="mb" onclick="currentSlide2(1)">
+          Northern
+        </button>
+        </td>
+      </tr>
+
+      <tr class="trung">
+        <td>
+          <button class="central bamienn" type="button" id="mt" onclick="currentSlide2(8)" >
+            Central
+          </button>
+        </td>
+      </tr>
+
+      <tr class="nam">
+        <td>
+          <button class="southern bamienn" type="button" id="mn" onclick="currentSlide2(16)">
+            Southern
+          </button>
+        </td>
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
+
+
+  <div class="meodulich" id="meodulich">
+    <h1>Traveling tips</h1>
+    <div class="square">
+      <div class="items">
+        <h2>Mountains</h2>
+        <ul>
+          
+          <li>
+            Necessary items: Specialized climbing clothes, specialized climbing shoes, water, dry food, climbing sticks, climbing gloves, medicine, shirt, insect spray, climbing rain, phone charger, sleeping bag,          </li>
+          
+          <li>
+            NOTE: Prepare life skills, prepare health, check weather forecast, go in groups, choose specific plans and specific locations,..          </li>
+
+        </ul>
+      </div>
+
+      <div class="items">
+        <h2>Beaches</h2>
+        <ul>
+          
+          <li>
+            Necessary items: Sunglasses, umbrella, hat, swimsuit, slippers, towel, basic medical supplies,
+          </li>
+
+          <li>
+            NOTE: Choose a beach to swim carefully, bring necessary items and equipment, avoid going near offshore currents, swim at reasonable times, warm up before swimming, note the "4 no's" before going into the sea, </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="end" id="endweb">
+      <div class="container1">
+          <!-- Vòng tròn -->
+          <div class="circles">
+            <div class="circle gray"><img src="./vinh.png" alt=""></div>
+            <div class="circle black1"><img src="./trung.png" alt=""></div>
+            <div class="circle black2"><img src="./uyen.png" alt=""></div>
+            <div class="circle black3"><img src="./tuan.png" alt=""></div>
+            <div class="circle black4"><img src="./quan.jpg" alt=""></div>
+          </div>
+        </div>
+          <!-- Thông tin nhóm dưới dạng bảng -->
+          <div class="project-info">
+            <h1>This project made by</h1>
+            <table class="memberstb">
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Trần Đức Trung</td>
+                  <td>2351060493</td>
+                  <td><a href="mailto:trantrung192005@gmail.com">trantrung192005@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Tạ Anh Tuấn</td>
+                  <td>2351060494</td>
+                  <td><a href="mailto:taanhtuan2005@gmail.com">taanhtuan2005@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Phạm Hoàng Thế Vinh</td>
+                  <td>2351060498</td>
+                  <td><a href="mailto:thevinh16102005@gmail.com">thevinh16102005@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Trần Quang Quân</td>
+                    <td>2351060480</td>
+                    <td><a href="mailto:quankhi012005@gmail.com">quankhi012005@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Hoàng Thị Giang Uyên</td>
+                  <td>2351060497</td>
+                  <td><a href="mailto:Htgu.0701@gmail.com">Htgu.0701@gmail.com</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+  </div>
+  <div class="container2">
+    <div class="slide fade" id="mienbac" >
+        <div class="bg bg1">
+            <div class="image1">
+                <img id="image11" src="./images/caobang3.webp" alt="">
+                <img id="image12" src="./images/caobang4.webp" alt="">
+                <img id="image13" src="./images/caobang2.jpg" alt="">
+                <img id="image14" src="./images/caobang1.jpg" alt="">
+            </div>
+            <div class="image1">
+                <img id="image11" src="./images/caobang3.webp" alt="">
+                <img id="image12" src="./images/caobang4.webp" alt="">
+                <img id="image13" src="./images/caobang2.jpg" alt="">
+                <img id="image14" src="./images/caobang1.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Cao Bằng</h1>
+                </div>
+                <div class="text1">
+                  Cao Bang, a province in the Northeast region of Vietnam, is famous for its wild and majestic beauty of nature. This place attracts tourists with outstanding landscapes such as Ban Gioc waterfall - one of the most beautiful waterfalls in the world located on the border, Nguom Ngao cave with a fanciful stalactite system, and poetic Thang Hen lake in the middle of the border. mountains and forests. Non Nuoc Cao Bang Geopark, recognized by UNESCO as a Global Geopark, is a place that preserves unique geological and cultural values. Cao Bang is also a land associated with Vietnam's revolutionary history, typically the Pac Bo Relic Area - where President Ho Chi Minh once lived and worked.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Pedro's+Pizza/@22.6685087,106.2450143,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBjYW8gYuG6sW5n!5m1!4e9!6e5!3m6!1s0x36ca64250ecd5b03:0xd3788250e059a2d6!8m2!3d22.6675358!4d106.2615032!15sChtuaMOgIGjDoG5nIGfhuqduIGNhbyBi4bqxbmdaHSIbbmjDoCBow6BuZyBn4bqnbiBjYW8gYuG6sW5nkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11dxqjtkdr?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qacb.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/H%C6%AF%C6%A0NG+VI%E1%BB%86T+PALACE/@22.6685087,106.2450143,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBjYW8gYuG6sW5n!5m1!4e9!6e5!3m6!1s0x36ca67fcf74ebd0b:0x6a752bae10e7069f!8m2!3d22.6769046!4d106.2427956!15sChtuaMOgIGjDoG5nIGfhuqduIGNhbyBi4bqxbmdaHSIbbmjDoCBow6BuZyBn4bqnbiBjYW8gYuG6sW5nkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11j8dv1_bw?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qacb2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/vietnam/indigen-boutique-hotel-cao-bang-9000003296910?spec=22-12-2024.23-12-2024.1.1.HOTEL.9000003296910..2" target="_blank"><img class="imgg" src="./images/kscb2.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/vietnam/muong-thanh-luxury-cao-bang-9000001136465?spec=22-12-2024.23-12-2024.1.1.HOTEL.9000001136465..2" target="_blank"><img class="imgg" src="./images/kscb.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg2">
+            <div class="image1">
+                <img id="image11" src="./images/hagiang16.jpg" alt="">
+                <img id="image12" src="./images/hagiang15.jpg" alt="">
+                <img id="image13" src="./images/hagiang13.jpg" alt="">
+                <img id="image14" src="./images/hagiang14.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Hà Giang </h1>
+                </div>
+                <div class="text1">
+                  <p>Ha Giang is a province located in the northernmost part of Vietnam, famous for the majestic beauty of the mountains and forests, winding passes and the unique culture of ethnic minorities. This place impresses with the Dong Van Stone Plateau. Tourists cannot miss Ma Pi Leng Pass - one of Vietnam's "four great passes", with a panoramic view of the turquoise Nho Que River winding at the foot of the mountain. Lung Cu flagpole - the sacred northernmost point of the Fatherland.</p>
+                </div>    
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+ng%E1%BB%97ng+K9+H%C3%A0+Giang/@22.823364,104.9563563,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgZ2lhbmc!5m1!4e9!6e5!3m6!1s0x36cc795fe7f6b15d:0xbd578e42c86c832!8m2!3d22.8273028!4d104.9779997!15sChpuaMOgIGjDoG5nIGfhuqduIGjDoCBnaWFuZ1ocIhpuaMOgIGjDoG5nIGfhuqduIGjDoCBnaWFuZ5IBEWZhbWlseV9yZXN0YXVyYW504AEA!16s%2Fg%2F11s8mx378m?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahg.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Ph%E1%BB%91+N%C3%BAi/@22.823364,104.9563563,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgZ2lhbmc!5m1!4e9!6e5!3m6!1s0x36cc7913a60bff19:0x43a9ab0de7e2d45b!8m2!3d22.8205863!4d104.9746654!15sChpuaMOgIGjDoG5nIGfhuqduIGjDoCBnaWFuZ1ocIhpuaMOgIGjDoG5nIGfhuqduIGjDoCBnaWFuZ5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11l2yc8nft?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahg2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=22-12-2024.23-12-2024.1.1.HOTEL.3000020020185.Phoenix%20Hotel%20Ha%20Giang.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuRPnj3ZFDVebwOdwiHdWoYsfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjRfnRAbODkW%2BZ5ObHLaYtvXHieDg80mh%2FDL55pm7dV7Y%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWoqQNEZFKr2fUCdnB5Hz510Dn1O10lpJ2RlopF6R4VuUqxudwDQ2kEsTP6SCOm7j29htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPv9qjJXriq62ywe3EonBajNQOfU7XSWknZGWikXpHhW5YxI4j7x%2BsW%2FNpjbr681b6B0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0cKcB2dwHBHPRIouQF7GAXJvKC1gxVRQDNNAjpAA5tSILItLvKbgvQ%2Fi%2FI2%2F0D83e7GnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCIiXitMhD7XUiAeMc%2BavVGxcAwLmdZr2uf9eNbQnSXlu5DYsBzZtHb2esLMyeCMSbGVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819133331995914248" target="_blank"><img class="imgg" src="./images/kshg.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=22-12-2024.23-12-2024.1.1.HOTEL.9000000898441.Plum%20Homestay%20Dong%20Van.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0dKXCKFkdLtisyoR0fZsu1WfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiSNxJdFPKoUlCcNH0aP52YaFQL6mctYXVjvf8ftqlVjo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWoqQNEZFKr2fUCdnB5Hz510Dn1O10lpJ2RlopF6R4VuUqxudwDQ2kEsTP6SCOm7j29htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPv9qjJXriq62ywe3EonBajNQOfU7XSWknZGWikXpHhW5YxI4j7x%2BsW%2FNpjbr681b6B0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hx95oYtPHqEA1ViqwtozKeAMasN3DoMqwhHKGME%2F1I9h2aP4ecJJxb%2Fh9qoAe6lP2p1hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7FvR8HM0pYFhE%2FJxlXAbPLkXWwFkzfjiOiu%2BnBPL7dvVQgZja7tARuIM67SMB0xjgHzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819133331995914248" target="_blank"><img class="imgg" src="./images/kshg2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>
+    </div>
+    <div class="slide fade">
+        <div class="bg bg3">
+            <div class="image1">
+                <img id="image11" src="./images/thainguyen14.jpg" alt="">
+                <img id="image12" src="./images/thainguyen122.jpg" alt="">
+                <img id="image13" src="./images/thainguyen15.jpg" alt="">
+                <img id="image14" src="./images/thainguyen12.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Thái Nguyên</h1>
+                </div>
+                <div class="text1">
+                  Thai Nguyen, a province located in Northern Vietnam, stands out for its beautiful natural landscape and long history. This place has famous landmarks such as Nui Coc Lake - a large artificial lake, outstanding with poetic scenery and mysterious legends. Thai Nguyen is also a land of vast tea hills, especially the Tan Cuong tea area, which produces famous and delicious tea. In addition, Thai Nguyen also has many historical relics such as ATK Dinh Hoa relic site - where Uncle Ho and the Party Central Committee lived and worked during the years of resistance against the French.                     </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+l%E1%BA%A9u+n%C6%B0%E1%BB%9Bng+369/data=!4m7!3m6!1s0x313527ff3e17bbf9:0xf6529e89fc6ef362!8m2!3d21.5860579!4d105.8133173!16s%2Fg%2F11s9x_hk3q!19sChIJ-bsXPv8nNTERYvNu_ImeUvY?authuser=0&hl=vi&rclk=1" target="_blank"><img class="imgg" src="./images/qatn.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/MM+Food+Th%C3%A1i+Nguy%C3%AAn/@21.5799214,105.835074,17z/data=!3m1!4b1!4m6!3m5!1s0x313527a233fa97b5:0x4f3cb3438c355ac0!8m2!3d21.5799214!4d105.835074!16s%2Fg%2F11s51dvn3h?authuser=0&hl=vi&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qatn2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=22-12-2024.23-12-2024.1.1.HOTEL.9000000337306.Kh%C3%A1ch%20s%E1%BA%A1n%20Kim%20Th%C3%A1i.2&contexts=%7B%22inventoryRateKey%22%3A%22EPSy2lMQRUbs4Z%2BpcPzDIdNKvmhJTIhZfSXkELrlZTZX4k5y%2F0WKYyAsMivTRnA2Poqhiw5Nrlo7Mh1GqRex9zBwlXbxLyhlYP0a6eYArAvoGIc%2BXoIlOirwYN2CgpSy96w7YY%2FIU42kH%2FWt0s4Sp0aNDlNJU7guTzcLwNpKQAYoeD3Op2bVCZ3CbCFime%2B1MSR%2FbLaQTLoRDPt3S8Ep%2BhtKi7rlDV0ewiKb4aCpTc2zS1ONAA71KiKCZUP%2F6YD1qqRgXiwI7A85fAEVQACTGwYfqxrrpSRaGpM%2FmviyCr0%2Fe5BZ7J8oJdKuWWDBOTV7pqE%2FcLxwj5X99NBVgckfoD97kFnsnygl0q5ZYME5NXt4gZl4tM1UEKCupAUWynPwP1Wu0%2BhUt0CF5cITdUEMsGXSnBfH7M5sVzxAi3TU16AEw8XL3Y1FYWHb7rCUTiCcFtjp8y%2FUGO%2FPmJeUOJFCY69h37rau1z0T1hNG3cyLSllkgA9atLUt8Hl9WSHAEdZZdKcF8fszmxXPECLdNTXoKVcAjLWqZKAxQsOCErwLOCYNz0dbp%2BT3CkbdiEkn9pSr2Hfutq7XPRPWE0bdzItKfUnj8w6nXwEKVzyVc%2Bf%2Blaxo%2FOly%2B3udI7uEig4oXZs7H3IOWGps0EKw9YVQtJEZVngW5H2ScSxCLtOezoD%2BVywsq1wYilTQ5HvgOQp8RLocMVUkJ1vWHxH6Pz7wUkvTDPfzLETA%2F7VRk1%2FMZYd9RISX0f2Kyu%2FCCuHDQkkNy3LR6kGA3zQhdWpCcdLFkVPv0CwZum2a5POfiqIedslHuU2o5HW4KsD6LP2I4%2B9dz%2FohNCZGZYTz1Ukk2FoO01HY8MNm8c1j0knk7%2FS%2BMiG1LQZf1X1iNtok4cMH3umX67ZJh3s7VAj6%2FR9KpL8D1CHOPgq4XhE2GBs31qeQrGVmJxw4V9hM10l%2BDl05rs4y7wpp7ewjBJ2aESMhjlK5ppM0%2F%2Fh2fpvVruyRlc0feLAVI8YGodIEOljvu2MeInz2YN1Cao4%2F2hGzOYVAuGNt%2Be5IJZzSZ0HqQjJLpij82JqtBmRNRBAHh4WdWo4RmdpMINVHLJCwrryiGuDn4Cki3qwXINPbRJb2%2FTsZ%2Ft%2BbDNQA6IS6crXSWALvx5XGXF2wz6z%22%7D&loginPromo=1&prevSearchId=1819134362736678028" target="_blank"><img class="imgg" src="./images/kstn.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=22-12-2024.23-12-2024.1.1.HOTEL.1000000664483.Kh%C3%A1ch%20s%E1%BA%A1n%20Ho%C3%A0ng%20Y%E1%BA%BFn.2&contexts=%7B%22inventoryRateKey%22%3A%22EPSy2lMQRUbs4Z%2BpcPzDIdNKvmhJTIhZfSXkELrlZTZX4k5y%2F0WKYyAsMivTRnA2Poqhiw5Nrlo7Mh1GqRex9xFmlqTxJLyA7cleCWeNmofoGIc%2BXoIlOirwYN2CgpSy96w7YY%2FIU42kH%2FWt0s4Sp0aNDlNJU7guTzcLwNpKQAYoeD3Op2bVCZ3CbCFime%2B1YKEcvGrh0%2FieT%2BrtBSgOAmXm66hTUpJ6EUmhhzBYj1acFDi%2Bs%2B9Q6vN0Jh9oIA%2FBqqRgXiwI7A85fAEVQACTG9EkLVFpkAGzF1QhC30MZwM%2Fe5BZ7J8oJdKuWWDBOTV7pqE%2FcLxwj5X99NBVgckfoD97kFnsnygl0q5ZYME5NXt4gZl4tM1UEKCupAUWynPwP1Wu0%2BhUt0CF5cITdUEMsGXSnBfH7M5sVzxAi3TU16AEw8XL3Y1FYWHb7rCUTiCcFtjp8y%2FUGO%2FPmJeUOJFCY69h37rau1z0T1hNG3cyLSllkgA9atLUt8Hl9WSHAEdZZdKcF8fszmxXPECLdNTXoKVcAjLWqZKAxQsOCErwLOCYNz0dbp%2BT3CkbdiEkn9pSr2Hfutq7XPRPWE0bdzItKfUnj8w6nXwEKVzyVc%2Bf%2Blaxo%2FOly%2B3udI7uEig4oXZs7H3IOWGps0EKw9YVQtJEZVngW5H2ScSxCLtOezoD%2BVywsq1wYilTQ5HvgOQp8RLocMVUkJ1vWHxH6Pz7wUkvTA3nwcbbQRO6xLQ0cfNWKG8mdXoUUVToaPZtxlFugXdY2t4OMfhXsXPwUqT%2BtuPBC4N7gORvFa4F6HMAeEc6Jv02o5HW4KsD6LP2I4%2B9dz%2FohNCZGZYTz1Ukk2FoO01HY8MNm8c1j0knk7%2FS%2BMiG1LTJKEyv5BPUyGaE5uabzN10dmg3TLk2DXn36K86aXaMF7MXXhOjhoHM00ZbEuyS7ANw4V9hM10l%2BDl05rs4y7wpp7ewjBJ2aESMhjlK5ppM0%2F%2Fh2fpvVruyRlc0feLAVI8YGodIEOljvu2MeInz2YN1Cao4%2F2hGzOYVAuGNt%2Be5ICfpMKnsNaJBE57cdhFx23XMEyeEOXQPF04oN62Fj3hGOTCCpcCId%2BLa6PYo0QcIJYNPbRJb2%2FTsZ%2Ft%2BbDNQA6IS6crXSWALvx5XGXF2wz6z%22%7D&loginPromo=1&prevSearchId=1819134362736678028" target="_blank"><img class="imgg" src="./images/kstn2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg4">
+            <div class="image1">
+                <img id="image11" src="./images/laichau11.jpg" alt="">
+                <img id="image12" src="./images/laichau12.jpg" alt="">
+                <img id="image13" src="./images/laichau13.webp" alt="">
+                <img id="image14" src="./images/laichau14.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Lai Châu</h1>
+                </div>
+                <div class="text1">
+                  Lai Chau, a mountainous province in Northern Vietnam, stands out for its wild, majestic beauty of nature and the diverse culture of ethnic minorities. This place has beautiful landscapes such as Fansipan peak - "the roof of Indochina", an ideal destination for those who love trekking and exploring nature. The Phu Lake, with clear blue water, surrounded by forests and mountains, is a peaceful place that attracts tourists. Lai Chau also has beautiful terraced fields, especially in districts such as Muong Te and Sin Ho, where visitors can admire the beauty of golden rice fields in the fall. Historical sites such as Thuong Temple Historical Relic Area...</div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Hi%E1%BA%BFu+Chi+-+%E1%BA%A8m+th%E1%BB%B1c+T%C3%A2y+b%E1%BA%AFc/@22.3980222,103.4280173,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBsYWkgY2jDonU!5m1!4e9!6e5!3m6!1s0x36d2a19b67c4b9d9:0xbc7c07c6b947169e!8m2!3d22.3943196!4d103.4631122!15sChpuaMOgIGjDoG5nIGfhuqduIGxhaSBjaMOidVocIhpuaMOgIGjDoG5nIGfhuqduIGxhaSBjaMOidZIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11cpgdxgyc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qalc.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Ph%E1%BB%9F+L%C3%BD+Qu%E1%BB%91c+S%C6%B0+Lai+Ch%C3%A2u-+Luxury+coffee,+wine+%26+cigar/@22.3980222,103.4280173,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBsYWkgY2jDonU!5m1!4e9!6e5!3m6!1s0x36d2a18a19716645:0x70d363104a78c7d9!8m2!3d22.3846109!4d103.472487!15sChpuaMOgIGjDoG5nIGfhuqduIGxhaSBjaMOidVocIhpuaMOgIGjDoG5nIGfhuqduIGxhaSBjaMOidZIBDnBob19yZXN0YXVyYW504AEA!16s%2Fg%2F11h4_9w_1r?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qalc2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.1000000460022.Muong%20Thanh%20Lai%20Chau%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0ejZwAoHyMNmVltNtwSp50cfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOhqSdeRrOIJdiNjtKln2V62LyJ1Cd57xsS9D1gJxSJP1I%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJHz7ToHtq42tHdCyR%2FISWv%2FPHieWVZOfH8cKeB4weCAlWrXL4IdURQorDwnZTMsBjhaLVsOs2xcSJrVGDsPl5xVlrFIB8SthBEMERJsvVZRx3vnIOfhbJ5pp71iuUTNZ%2F0QssIJF4VVvNjJAaBS7K7IajQ6rFtPnkQVyS4DRRDjj2W2uk7fsEtgROe75t%2B4i6QgZja7tARuIM67SMB0xjgHzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819236274198838441" target="_blank"><img class="imgg" src="./images/kslc.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000319078.Heaven%20Gate%20Hotel%20O%20Quy%20Ho.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft7kmvq6zNDd4JXgkRcs7xtrfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOgTUF8uPIIQL0rCSb9XNHrUFIuOuy6zJFJwPL7yW6wq2lojraceyKrNRmvJY3C4ARNvmzpKB3IJycdCcd%2FTPv9xWiOtpx7Iqs1Ga8ljcLgBExRMjY4RH8ng%2Faj%2BIjo4bwp%2FnUKXTSeVIumnRcdMEOmBwi%2Fn2saw1CSujF%2FXfvbBZebpZaP6lPSTNy716ZBnPhqi1vsUhyiJ30nSE7pTi0KOmiw4mjKzvPuHybihY94iBnE%2FJv67fOsT8aHmUE%2Bnntx6EYX3pBXCz5EWuNjOlbLZ5ullo%2FqU9JM3LvXpkGc%2BGgfKgJ3j5WPgl%2FIfdDsgiawiwDoyoR6C%2B6nBumT%2BE%2BHp0g%2B7x785kwvRwntERKG%2BYTiceUfGFPL5gxb%2BO%2FZjViyfnt9cwaKMubsaAsTuw8lnFwFg7Q5p0PSGRSY4ocA%2B6TrY5HJcF4cw%2BOzFZrVKzdrlc9cPDYQmVupLIt8pP7p0kcBbtr2L7fB%2Fql6qPlb8q7eEGAddCa1JkEYhkY%2B8jN6RETkFG2gooYrllnnJevc1ZefPlOzrf%2BuY1iXQieCQCbowKwBqJ3mwjIg8sM0n6cgX7ZNnTwgBBpPfD79Dcuqk%2FvIrJZGegy0KHbdaIUN%2BW7NChAdWNds5sDkzpdO9WL1rjXkEm%2F9zt07V0c9TwXjc6ct0932p66x3IV3Cbp%2FN7sIF5U7PneQHqFyFJHqha4bZdvTZN%2F14LHO38M%2BOSOqIr2E4PBl0EnkLmKSmViR%2B1liUbBfAO4RbJZ7bjPJWYu794NP2gAVZ783f2yv%2F5NCpW013Etc%2FiaalYXUU7wbWHQmPN4AEoe2aoNNQkTu4urVfhI31nfbT4HcdLoSxD%2FIF%22%7D&loginPromo=1&prevSearchId=1819236274198838441" target="_blank"><img class="imgg" src="./images/kslc2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg5">
+            <div class="image1">
+                <img id="image11" src="./images/hanam1.jpg" alt="">
+                <img id="image12" src="./images/hanam2.jpg" alt="">
+                <img id="image13" src="./images/hanam3.jpg" alt="">
+                <img id="image14" src="./images/hanam4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Hà Nam</h1>
+                </div>
+                <div class="text1">
+                  Ha Nam, a province located in the Northern Delta, stands out with the combination of green nature and unique historical and cultural values. This place has attractive tourist destinations such as Tam Chuc Pagoda, a large pagoda complex, known as "Ha Long Bay on land", with majestic scenery and sacred space. Tam Chuc Lake, with its surrounding limestone mountains and calm lake surface, is an ideal place for visitors to relax and admire the natural beauty. Ha Nam also has important historical sites such as Lanh Giang Temple and Truc Temple Historical Site, which are places to worship national heroes.     </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+D%E1%BB%91c+N%C3%BAi+S%E1%BA%BB/@20.573162,105.766899,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgbmFt!5m1!4e9!6e5!3m6!1s0x3135cdeb2e22ef8b:0x8edaba8bbfb93db2!8m2!3d20.573162!4d105.8431167!15sChhuaMOgIGjDoG5nIGfhuqduIGjDoCBuYW1aGiIYbmjDoCBow6BuZyBn4bqnbiBow6AgbmFtkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11ll4_22xp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahnm.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Ph%E1%BB%91+X%C6%B0a+-+H%C3%A0+Nam/@20.573162,105.766899,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgbmFt!5m1!4e9!6e5!3m6!1s0x3135cf3efdb36c79:0x76d500dff6f62995!8m2!3d20.5433798!4d105.9429679!15sChhuaMOgIGjDoG5nIGfhuqduIGjDoCBuYW1aGiIYbmjDoCBow6BuZyBn4bqnbiBow6AgbmFtkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11s7cxpg9_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahnm2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020018145.Melia%20Vinpearl%20Phu%20Ly.2&contexts=%7B%22inventoryRateKey%22%3A%22tCI74RobDcii8TFR6EO8dfBoDgXZAdJDba%2F%2Bb%2Fyo7vkOk6GMlYILLaF8RQJ%2F4zuxuqh5NUrDL1X06WiPQrOrgvYvQ4sIWSBpV2fmG1cQqMoeGH977xnb315B3mrjBm7HyK8xGIXme9OHCdmEk%2FgPTXduigRAq8X27Usb5VXcwoZFSdoc5m1%2Btl98GNRMJbA2nO35TVPqzWzICnDpGkzariLxFnopXVaO52x8SFnFz1TRsrF8D%2FT%2F%2Bo0E458ink7%2FsqmJsUnp0ShRH0h0tFzt5GX2TxBIU%2BKk8meDZxpYqBZOmsuEV5bHmxIznWKiQsmWaA2CIz4EE2SSVO8ezw7%2FhwctAco%2F%2B9h6zdPnNkrdqrDORWjw6SsPoKgQIYwByzYQczrf0EjL%2BTB1Jym%2BBZSCqP%2Fny0LZiRLY0XordcNqI3VoDYIjPgQTZJJU7x7PDv%2BHg2wbwmIEB5AwpPM0OZo0p85FaPDpKw%2BgqBAhjAHLNhA9Q4DqSeme7eLo2nzwXdNZhsbe9D9gUmxCy64NB2X93mfoS1bfqpLr5oPgdPPfyVz7VRZk8jjRua3cQTnrvJYVH0ANLT%2F1gwhLZQE1mfxHWgZpPicJQ%2FU0eIPocBMLzVPg4rM8XOxlZB%2B%2BAUkqrBvsMJb59c2lW77iKVmYr0zkI8KF6aj3ivVK3SJOPgcTiMGTgG6q53j7JtDY8lbrWfL5i5RxDmcDss%2FEhr%2F6%2FUKnnu%2FTJLVwtFgyAuMftJKbMa92LNauZdtioMuyhzMUsZMa3Ly%2Ff8O5%2FTsc6l2ZB%2FU%2Fi%2BP8fZdWCkn0%2FOX1ZV96oTUqTYN4%2FxRW1qDLneYXprwcXQTJe1C6JKR%2FG5eWdyefNYv%2FN23FMuyNUreS%2Bg0kvPT%2BdLYFpm6lSegjIcFyVNF50Vv%2FdzbtCVVsIXg1yAqWtt%2B6%2FuQQQ29tT%2BEiif3SnD50OcoXplDxSLhEU79s00QqA7g%2FDL8v6ymH39cb2Oi7yKU3l10%2FaNobKZCFcDVti8yYGlHNr7kg2zFfcL%2BSsqkK3pEXcqjj6LQyPfWodWaUJPA9F6SCSnppuXdXVdExUX8QGuXsd2UerL%2FA5RRlyhYj%22%7D&loginPromo=1&prevSearchId=1819236427408367135" target="_blank"><img class="imgg" src="./images/kshnm.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001043185.Hoa%20Dong%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU2B9D%2BXTtnp8xBPheXkh8zd%2Ffiik3yuW5%2B5%2B%2B1QUKo7ufwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiXRHzAZDWeuG0F1hB7SR6yaFQL6mctYXVjvf8ftqlVjo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h5%2BHTp6J%2B%2FaXhfHPt%2Bp7Ja6yNhQhIGcH8c9ETQxS6McTRws%2BhcXTSBmMYSIetSOtup1hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7Jx8ZQvsjmvnWh16shosSv8RHWszJ0Vp642IndgCk9%2BSQgZja7tARuIM67SMB0xjgHzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819236427408367135" target="_blank"><img class="imgg" src="./images/kshnm2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg6">
+            <div class="image1">
+                <img id="image11" src="./images/quangninh1.jpeg" alt="">
+                <img id="image12" src="./images/quangninh4.jpg" alt="">
+                <img id="image13" src="./images/quangninh3.jpg" alt="">
+                <img id="image14" src="./images/quangninh2.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Quảng Ninh</h1>
+                </div>
+                <div class="text1">
+                  Quang Ninh, a coastal province located in Northeast Vietnam, is famous for its spectacular natural beauty and rich culture and history. This place owns Ha Long Bay, a world natural heritage recognized by UNESCO, with thousands of large and small limestone islands and mysterious cave systems, making it the top attractive destination in Vietnam. In addition to Ha Long Bay, Quang Ninh also has unique landscapes such as Bai Tu Long, Co To island with a romantic blue beach, and Yen Tu mountain, which is associated with Vietnamese Buddhism through a system of ancient pagodas and towers. and a sacred journey to worship Buddha. Mong Cai city, with its international border gate, is a place of vibrant cultural and commercial exchanges.          </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Ng%E1%BB%8Dc+L%E1%BB%A5c+B%E1%BA%A3o+-+Nh%C3%A0+H%C3%A0ng+H%E1%BA%A3i+S%E1%BA%A3n+Qu%E1%BA%A3ng+Ninh/@20.9504384,107.0181306,13z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIG5pbmg!3m6!1s0x314a585e1fe8dae1:0x409f5b2b0d428b14!8m2!3d20.9573757!4d107.0581598!15sCh1uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgbmluaFofIh1uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgbmluaJIBEnNlYWZvb2RfcmVzdGF1cmFudOABAA!16s%2Fg%2F11c30s4_mn?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaqn.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+H%E1%BB%93ng+K%C3%B4ng/@20.9504384,107.0181306,13z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIG5pbmg!3m6!1s0x314a59e2d6397c8f:0x8cb3e8922827f8f2!8m2!3d20.9561761!4d107.0177417!15sCh1uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgbmluaFofIh1uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgbmluaJIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11flyhspx2?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaqn2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000831710.DeLaSea%20Ha%20Long%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22r%2F4%2FIbSpsApptn70HsOVHP1%2Bi1SHhkRa3idkrzICNj4dEvvW%2BsMTfF0LL0XINC9JTHUKJJgKdXInQhwiuV9g0vsiEbiy2n3yBgneU5TLRjIa7aLchboS7wdNkBRjAqgQL8Wgf%2Fmzqcmw3PrdUN%2BC4uT3cmC%2BBzZqbR8W%2FZADv0rcLzwFIvhl3NGqhf0y7SOqxp9nLxDX9c51A2Js5YFDK22y4C6ddFpquA7voUZc6FYpQcnindWv1Y071wOXHefzhiBWHz0y%2F4E2rnjDpR%2BYAWWyoEJq6oPJO66jaJD%2Bm5%2FWqPYxQhAqYXrDxPqDyU7BdeO0nXTJ3aZm05Zx67KIyeqsHdslAAYDLIIE8fCdu5XTZtjIP8yUQ4Eit%2F1rZRMnjSwCOe9KQ45CBgvpy88SiHKG79rDOydBXYu9RfjGj7iWf%2BAXEdXTCWZx4LorQChun3%2BKUOET%2FDJ%2FfwZU0oQ739Nm2Mg%2FzJRDgSK3%2FWtlEyf%2FR3U%2FLwS1IszOYpjMw7VLpBUbhE4Q8wkSJjVJlQgMd7MKq8qGJaXRQlTCuZc4efiN3%2F2fxxs81nRkSHhmlugqAzU5Vc4ITBEW1mbqoiDLzO1vC07HIsviYzwHyuDNtVDIuSF14LPaEgvtFEJafOV36CAHjTKxyUZVwJk4Uir4XEVe49h28jgGxdvu%2FyS5UqYM8u8cfGyRcxyOVZBbRzDOsiPpIWjZJ%2FbsW28EvsOjD%2F90hgEIQ3Jq7moHS6isnTTuEkp2cmDw%2FIYiRiWlKzjb%2FvIrJZGegy0KHbdaIUN%2BW%2FhU20dzvkuh4pY%2FEUx71%2BYV1VpjLJfEaB3Musk3f26d5XnzWnw2mTmjc%2BgCAOWkL3DhX2EzXSX4OXTmuzjLvCmnt7CMEnZoRIyGOUrmmkzT%2F%2BHZ%2Bm9Wu7JGVzR94sBUj4EC%2Bxa9L5Sms4W1W0KjMhcJqjj%2FaEbM5hUC4Y2357kgVuMoHOHn9kFuWrRPlqEyUeC7Lmb7nbQPZ%2B%2BUTG7bM%2BOF7aOPxoLzqy2na5l9LjRv%22%7D&loginPromo=1&prevSearchId=1819236657185972576" target="_blank"><img class="imgg" src="./images/ksqn.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000987511.The%20Secret%20Ha%20Long%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22EPSy2lMQRUbs4Z%2BpcPzDIdNKvmhJTIhZfSXkELrlZTZX4k5y%2F0WKYyAsMivTRnA2Poqhiw5Nrlo7Mh1GqRex94q7ZFJl6oReY%2B8EbHsVh67oGIc%2BXoIlOirwYN2CgpSy96w7YY%2FIU42kH%2FWt0s4Sp0aNDlNJU7guTzcLwNpKQAYoeD3Op2bVCZ3CbCFime%2B1xYISTzYHkPvd5WfS%2BRCgJoBlbVVA7ivrNIAeibc0pSDbUfT%2FfksO7iPPmWqBLpYUqqRgXiwI7A85fAEVQACTGxREWoQQ53zok07F3eVN05c%2Fe5BZ7J8oJdKuWWDBOTV7pqE%2FcLxwj5X99NBVgckfoD97kFnsnygl0q5ZYME5NXt4gZl4tM1UEKCupAUWynPwP1Wu0%2BhUt0CF5cITdUEMsGXSnBfH7M5sVzxAi3TU16CHDWTIZlhBSw2a7LvmucDDiJjWUEy6naIi4wgXVt20%2Bq9h37rau1z0T1hNG3cyLSllkgA9atLUt8Hl9WSHAEdZZdKcF8fszmxXPECLdNTXoATDxcvdjUVhYdvusJROIJwW2OnzL9QY78%2BYl5Q4kUJjr2Hfutq7XPRPWE0bdzItKfUnj8w6nXwEKVzyVc%2Bf%2Blaxo%2FOly%2B3udI7uEig4oXZs7H3IOWGps0EKw9YVQtJEZVngW5H2ScSxCLtOezoD%2BVywsq1wYilTQ5HvgOQp8RLocMVUkJ1vWHxH6Pz7wUkvTDPfzLETA%2F7VRk1%2FMZYd9RJeoT6hOEivvQlPGZbhYaxMyEgpqf3RQ79IrfeMb2lsUkuD9AcYHBBNArL7G4MpDDI2o5HW4KsD6LP2I4%2B9dz%2FohNCZGZYTz1Ukk2FoO01HY8MNm8c1j0knk7%2FS%2BMiG1LQAGGhSMTXzzWK7BEfnrP4rEhLxsyap8aTK7JjHHgLqqOwZeK1Ihd9W3wRMShGQF%2FRw4V9hM10l%2BDl05rs4y7wpp7ewjBJ2aESMhjlK5ppM0%2F%2Fh2fpvVruyRlc0feLAVI8YGodIEOljvu2MeInz2YN1Cao4%2F2hGzOYVAuGNt%2Be5IAoXsWj1RmeBY3w1Kl8SbdEgPRDVdBDp99LDHHO%2FdbAu9P07DEc8q5e28AaJa4zLH4NPbRJb2%2FTsZ%2Ft%2BbDNQA6IS6crXSWALvx5XGXF2wz6z%22%7D&loginPromo=1&prevSearchId=1819236657185972576" target="_blank"><img class="imgg" src="./images/ksqn2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg7">
+            <div class="image1">
+                <img id="image11" src="./images/hanoi1.webp" alt="">
+                <img id="image12" src="./images/hanoi2.webp" alt="">
+                <img id="image13" src="./images/hanoi3.webp" alt="">
+                <img id="image14" src="./images/hanoi4.webp" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Hà Nội</h1>
+                </div>
+                <div class="text1">
+                  Hanoi, the capital of Vietnam's thousand years of civilization, is a convergence of ancient beauty, profound culture and modern pace of life. The city is famous for important historical sites such as the Thang Long Imperial Citadel, a UNESCO world heritage site, Ho Chi Minh's Mausoleum, and the Temple of Literature, Vietnam's first university. . Hanoi is also known for its poetic lakes such as Hoan Kiem Lake associated with the legend of the golden turtle, the vast West Lake, and ancient streets bearing the mark of time, where visitors can feel the vibrant atmosphere. movement of 36 streets.</div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/T%C3%89P+Vietnamese+Restaurant+%26+Vegan+Food/@21.024919,105.7975169,14z/data=!4m12!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgbuG7mWk!5m1!4e9!6e5!3m5!1s0x3135ab005d5ee085:0x34daeedb097d99a1!8m2!3d21.0349969!4d105.8471171!16s%2Fg%2F11vxjx2m68?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahn.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+H%C3%A0+N%E1%BB%99i+Ph%E1%BB%91/@21.024919,105.7975169,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgbuG7mWk!5m1!4e9!6e5!3m6!1s0x3135ab7ebb36a097:0xb8a245fd0d8259b1!8m2!3d21.0289591!4d105.7891982!15sChpuaMOgIGjDoG5nIGfhuqduIGjDoCBu4buZaVocIhpuaMOgIGjDoG5nIGfhuqduIGjDoCBu4buZaZIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11g1pnnskt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qahn2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001072104.Kh%C3%A1ch%20S%E1%BA%A1n%20Ha%20Noi%20Le%20Grand.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU2B9D%2BXTtnp8xBPheXkh8zemN%2FwIe%2FUfGkzrNHUYfoYRfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjrKNUemG6lN9zinrcFk9lNIbZPkg1GU4GTBjZLvNEijo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hzsvgN8AS1op7NiowblztyoAQgWbYTfmDRKL4ND5N6LnHb7YUk%2FFyK62HiEvrqvCmp1hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7AYiop8saKJSK7UIfjVweKAoLe%2F5eoH12yhlOHM5XjekDF%2BzAbd3sTGIBxwSAjkUE3zNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819236774887586985" target="_blank"><img class="imgg" src="./images/kshn.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020019584.The%20Art%20Classic%20Hotel%20%26%20Spa.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft70hE%2F628avplJs%2F6j2j%2BT7fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjRfnRAbODkW%2BZ5ObHLaYtvJoJlaGWsRbcMyuApowM4U4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0cQgVu2xMBwyg%2FpIhq9ivejFrBtNc9Jpy0es5%2FLzfhhx5SNerB2t9o3Q9XPEnSnrv4pXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCJXLsH4P8tvVWb%2BB6%2BpUHGmQqI9q%2B0p82vVdO34KkYDW9chjZjLLtWGkFQ%2BavMcMd2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819236774887586985" target="_blank"><img class="imgg" src="./images/kshn2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade" id="mientrung" >
+        <div class="bg bg8">
+            <div class="image1">
+                <img id="image11" src="./images/khanhhoa2.jpg" alt="">
+                <img id="image12" src="./images/khanhhoa1.jpg" alt="">
+                <img id="image13" src="./images/khanhhoa6.jpg" alt="">
+                <img id="image14" src="./images/khanhhoa5.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Khánh Hoà</h1>
+                </div>
+                <div class="text1">
+                  Khanh Hoa, a coastal province in Central Vietnam, is famous for its beautiful natural landscape, blue sea and white sand. Nha Trang city - one of the most beautiful bays in the world, with romantic beaches such as Bai Dai, Bai Tru, and Hon Tam. Unique destinations such as Diep Son archipelago with a white sand road in the middle of the sea or Binh Ba island - "lobster island" - attract tourists who love to explore. In addition, Ponagar Tower, an ancient Cham architectural work, is a sacred cultural symbol of this land. Khanh Hoa is also famous for hot mineral spring resorts such as I-Resort, Tram Egg, and natural landscapes such as Van Phong bay and Mun island - ideal places for diving to see coral.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Nha+Trang+x%C6%B0a/@12.0925926,108.9073383,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBraMOhbmggaG_DoA!5m1!4e9!6e5!3m6!1s0x31705da71ad0b5f5:0x1120fd9bf43e5174!8m2!3d12.2470183!4d109.156839!15sChxuaMOgIGjDoG5nIGfhuqduIGtow6FuaCBob8OgWh4iHG5ow6AgaMOgbmcgZ-G6p24ga2jDoW5oIGhvw6CSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11f03p4dgz?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qakh.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+Ngon+Nha+Trang/@12.0925926,108.9073383,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBraMOhbmggaG_DoA!5m1!4e9!6e5!3m6!1s0x317067e6c9e2052d:0xfb0974acee122be0!8m2!3d12.248093!4d109.1948105!15sChxuaMOgIGjDoG5nIGfhuqduIGtow6FuaCBob8OgWh4iHG5ow6AgaMOgbmcgZ-G6p24ga2jDoW5oIGhvw6CSARV2aWV0bmFtZXNlX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11v5gdl_x_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qakh2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020000183.Golden%20Hotel%20Nha%20Trang.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdUw6p4Oi4t9ianyz%2Fk%2Fcwm21Cjqae3sO8ltkXj5daDRiIfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOg3Ecwbn2%2F2IuOUXTOX6qJU%2BLFKhGPSSW7EsxubZBqXW4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0WCQM93O%2BZ8UwZkH4N%2FT%2FgGZ2iPl8BRrdssf1OXp3MCCvZPkvP2zVnodq6xebmDp7Ge1y8vPvylnmxjTufQOpdLOzC2sFsej9WWx7g3SYAXFJ6MSKS%2Fz%2BkpoJngd6r1zAHHJsRKvXQf6JZDYSg9HG1HwTLg%2B17%2F6e4uDXDP5aBp9GCDxAyBtbkTAbCmrAJztrvR3MHSBybHD4BC05a7%2FSj%2BKM9qWgNtcYolzEeiDVNfjIA82ToN1lw%2BVGVYRWVWD8CS6Aqx%2FPvSx%2B3RsIk56bYzjcPTP9Kpo%2Br7UorfQV1fJhFW0Y5fpzrZFJLWwrzj3Y%2FYR0sx%2FEtmN9smfGqnEpJxF2mPAI%2BZAZRKe7CT0khS9%22%7D&loginPromo=1&prevSearchId=1819236887412371124" target="_blank"><img class="imgg" src="./images/kskh.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000928831.La%20Vague%20Hotel%20Nha%20Trang.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdUw6p4Oi4t9ianyz%2Fk%2Fcwm22%2BGOr54BJO7PHkfrkH4sm3fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8aUVhCFINeZI234JHwOAUPdo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h7lhx5Fs4HD2%2FVNarLdGq9G%2FmhRpFHsO%2BjUIl6W97Vu3kfpg9dvumAsE2Qxr131bx72MgqJHTzU%2BzV1Y0hn8tI176iELISt6yDYP0kBwY1eK0QssIJF4VVvNjJAaBS7K7JXFJpS05cKO9k0MkWYIg%2Fs6DtI8UMQqdoPV2FTPQsQEQgZja7tARuIM67SMB0xjgHzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819236887412371124" target="_blank"><img class="imgg" src="./images/kskh2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg9">
+            <div class="image1">
+                <img id="image11" src="./images/dn2.jpg" alt="">
+                <img id="image12" src="./images/dn1.jpg" alt="">
+                <img id="image13" src="./images/dn3.jpg" alt="">
+                <img id="image14" src="./images/dn4.jpg" alt="">
+            </div>
+            <div class="content1">
+              <div class="heading1">
+                    <h1>Đà Nẵng</h1>
+                </div>
+                  <div class="text1">
+                    Da Nang, a city located on the central coast of Vietnam, is famous for its modern beauty, cleanliness and wonderful natural landscapes. This city is known as "the most livable city in Vietnam" with long romantic beaches such as My Khe, Non Nuoc, and Son Tra peninsula, where there is green primeval forest and a tall statue of Ba Linh Ung Buddha. best in Vietnam. Da Nang also attracts tourists with the Marble Mountains, a complex of limestone mountains associated with history and spirituality. Ba Na Hills, with the world-famous Golden Bridge and cool climate all year round, is a destination not to be missed when visiting this city. Da Nang is also the gateway to world cultural heritages such as Ba Na Hills. Ancient Hoi An and My Son Sanctuary.
+                  </div>
+              </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/La+Cabana+-+House+of+BBQ/@19.3042803,104.6183844,7z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiDEkcOgIG7hurVuZw!5m1!4e9!6e5!3m6!1s0x314219669edc596f:0x3b32cac37c9cef30!8m2!3d16.0630164!4d108.2302488!15sChxuaMOgIGjDoG5nIGfhuqduIMSRw6AgbuG6tW5nWh4iHG5ow6AgaMOgbmcgZ-G6p24gxJHDoCBu4bq1bmeSAQtzdGVha19ob3VzZeABAA!16s%2Fg%2F11jyck2xvc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qadn.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+B%E1%BA%BFp+X%C6%B0a/@19.3042803,104.6183844,7z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiDEkcOgIG7hurVuZw!5m1!4e9!6e5!3m6!1s0x314219d42db3708d:0xd96ef428e811f52!8m2!3d16.0791564!4d108.2202612!15sChxuaMOgIGjDoG5nIGfhuqduIMSRw6AgbuG6tW5nWh4iHG5ow6AgaMOgbmcgZ-G6p24gxJHDoCBu4bq1bmeSARFmYW1pbHlfcmVzdGF1cmFudOABAA!16s%2Fg%2F11t04kd88x?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qadn2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000134494.Davue%20Hotel%20Da%20Nang.2&contexts=%7B%22inventoryRateKey%22%3A%22r%2F4%2FIbSpsApptn70HsOVHP1%2Bi1SHhkRa3idkrzICNj4dEvvW%2BsMTfF0LL0XINC9JZpqnJQmDesfViPhRe65mb%2FsiEbiy2n3yBgneU5TLRjIa7aLchboS7wdNkBRjAqgQL8Wgf%2Fmzqcmw3PrdUN%2BC4uT3cmC%2BBzZqbR8W%2FZADv0rcLzwFIvhl3NGqhf0y7SOqm%2BQgYI%2BFpOSLyLtjL0NS0p4%2Fw5lp0HSKdSaRb612A1IdZQ%2Bmo27xejTh5Oc4izw39PCWSVDKwnP%2FUeFnHAmHq0P1a2C211JkQoCvOnw%2FXAF26T8o790RIclYDsF7jT9%2BcrFY9oFTmI%2BuhAf1m4i0MQ7X%2FrM2XiluLfBpzLJD%2Fb%2B5CR8F%2FpRFkZMEbwuC3KK2Yg%2BEJ8K046wJ9R2Dj8tvWdomDoUuMEjk0Bs8ifzfPptBpm91DpTdLg%2B%2FzK6QY%2FIKskN%2FzH%2F5Rc9UyLX3tFR0jLkJHwX%2BlEWRkwRvC4LcorZE5lH7CkmhuKUZUVANNehpmukY4Wfv%2BkFduc7hBHb6pnn4aNKOyoG7Jito5SHkdjo0bXHRx6PwFsBDwx4PdDdUfTttQXVTLpoSidS2Vk2IQKraL3%2B5e1oeju2nE%2FCHues5I1GzKTMKA%2FGw3X0qzb2HoyYXRBM4iOF5d4kSWB5OPbBzIrtUW2aHE8zK5KoHXUPOWWcTFH3AhWtivx9rB2AIiS9Jsh7r%2Bcs2R7SqSNEducXx9mylKUoxLgOp0XlKcJ57oOICPs1YF0SutWnJEyoJlll0lJDXqcOSNNvRZMxUTljX9Yoeep7X4w5112Uijdoe0unOtxNy4esnPL4QNUzOi%2F83bcUy7I1St5L6DSS89P50tgWmbqVJ6CMhwXJU0XnRW%2F93Nu0JVWwheDXICpa237r%2B5BBDb21P4SKJ%2FdKcPuRx2sRLJh5sZ5QVDquAjTkDuD8Mvy%2FrKYff1xvY6LvIq0WMLP0FcHlphGvWTIwq9vFLLN7VBamW9VIeczz%2BFKHmK8iZSIYgcYH9n%2BWJtUqX%22%7D&loginPromo=1&prevSearchId=1819237633231970903" target="_blank"><img class="imgg" src="./images/ksdn.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020011694.Orchide%27es%20Ocean%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22r%2F4%2FIbSpsApptn70HsOVHP1%2Bi1SHhkRa3idkrzICNj4dEvvW%2BsMTfF0LL0XINC9JWv%2FpjwBMQid4P1g4CwVpKvsiEbiy2n3yBgneU5TLRjIa7aLchboS7wdNkBRjAqgQL8Wgf%2Fmzqcmw3PrdUN%2BC4uT3cmC%2BBzZqbR8W%2FZADv0rcLzwFIvhl3NGqhf0y7SOqVN%2BYf0vssFZY6AwU3nY%2FpgVYqQ6nTGT%2FVI%2FwzgW77cwdZQ%2Bmo27xejTh5Oc4izw39PCWSVDKwnP%2FUeFnHAmHq0P1a2C211JkQoCvOnw%2FXAF26T8o790RIclYDsF7jT9%2BcrFY9oFTmI%2BuhAf1m4i0MQ7X%2FrM2XiluLfBpzLJD%2Fb%2B5CR8F%2FpRFkZMEbwuC3KK2Yg%2BEJ8K046wJ9R2Dj8tvWdomDoUuMEjk0Bs8ifzfPptBpm91DpTdLg%2B%2FzK6QY%2FIKskN%2FzH%2F5Rc9UyLX3tFR0jLkJHwX%2BlEWRkwRvC4LcorZE5lH7CkmhuKUZUVANNehpmukY4Wfv%2BkFduc7hBHb6pnn4aNKOyoG7Jito5SHkdjo0bXHRx6PwFsBDwx4PdDdUfTttQXVTLpoSidS2Vk2IQKraL3%2B5e1oeju2nE%2FCHues5I1GzKTMKA%2FGw3X0qzb2HoyYXRBM4iOF5d4kSWB5OPc1Sln2A1FajaPwGpZfcWhN0hy5S3E0QPJK6wCuhg7mf%2Fs8z13vTqi5TW5LdzM8NasXx9mylKUoxLgOp0XlKcJ7oMikjsbFsFDODLFNc4Fn6LOsg%2BtVMwgdLBQwCFoUNCByI9o1vEYpcWZ276ceZle4KGoY1w%2Fj%2Fx7z0k5a1l%2B479chjZjLLtWGkFQ%2BavMcMd2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819237633231970903" target="_blank"><img class="imgg" src="./images/ksdn2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg10">
+            <div class="image1">
+                <img id="image11" src="./images/bd1.jpg" alt="">
+                <img id="image12" src="./images/bd5.jpg" alt="">
+                <img id="image13" src="./images/bd6.jpg" alt="">
+                <img id="image14" src="./images/bd3.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Bình Định</h1>
+                </div>
+                <div class="text1">
+                  Binh Dinh, a coastal province in Central Vietnam, is famous for its pristine natural landscape, unique culture and heroic history. Quy Nhon city, the center of the province, is an outstanding destination with clear blue beaches such as Ky Co beach and Eo Gio beach - a place known as a paradise for watching beautiful sunsets. Hon Kho and Cu Lao Xanh are also ideal places to dive to see coral and enjoy fresh sea air. Binh Dinh is also associated with the history of the ancient Champa kingdom, shown through clusters of Cham towers. Banh It and Duong Long tower, relics with unique architectural features. This place is also the hometown of the hero Quang Trung, associated with relics such as the Quang Trung Museum and the Heaven and Earth altar in Tay Son.                 </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+C%C3%A1+Kh%C3%B3i/@14.1143593,108.836181,10z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBiw6xuaCDEkeG7i25o!3m6!1s0x316f6dac80fef07f:0xe6811ee8426da4fe!8m2!3d13.7554896!4d109.2145532!15sCh5uaMOgIGjDoG5nIGfhuqduIGLDrG5oIMSR4buLbmhaICIebmjDoCBow6BuZyBn4bqnbiBiw6xuaCDEkeG7i25okgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11s5p4f31p?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabd.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Thinai+Seafood+-+H%E1%BA%A3i+s%E1%BA%A3n,+c%C6%A1m+%C4%91o%C3%A0n,+ti%E1%BB%87c+li%C3%AAn+hoan/@14.1143593,108.836181,10z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBiw6xuaCDEkeG7i25o!3m6!1s0x316f6db79eecedd5:0x5d871eb9354fee2f!8m2!3d13.7828391!4d109.2297416!15sCh5uaMOgIGjDoG5nIGfhuqduIGLDrG5oIMSR4buLbmhaICIebmjDoCBow6BuZyBn4bqnbiBiw6xuaCDEkeG7i25okgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11kpxt68db?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabd2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001139967.FLC%20Sea%20Tower%20Quy%20Nhon%20-%20ND%20Condotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPQVJnNqOz6bZMQqqLjBX4fifwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjT2kAb5PFnnUsj4yv%2BE8%2BEj7oa70WmaLtBi3BodicH2Y%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hwdYH5DLS1%2FdtEfFi%2FyeKRrFfXRw%2BeFLOkTwxkhskSVv7idzpT0qoTrdV6551E4gYUltgt5ATcbM0U5uVeu3Nre8KJ6EpfGsO%2BzJ7s0Hhir0LOsg%2BtVMwgdLBQwCFoUNCJpVKP7%2FH8aT3hPSyFpeqvmmMIvhbPwtUpZ5j4hQFgSFPs4QCNEVZFksL60K9ZITB2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819237739510394098" target="_blank"><img class="imgg" src="./images/ksbd.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001109040.Grand%20Hyams%20Hotel%20Quy%20Nhon%20Beach.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0SwSlMd5KjXi8Ua6ig3%2BerAkk8OUdjxteFCZMX5S65fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjRfnRAbODkW%2BZ5ObHLaYtvM4doktZu1N7bzRiXmMe21I%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h8MwS5ycXC%2B73pn9MEo8tvdBO9anLKyoq559tvDMEmk1EAj3Ihvj4x7cd09E7MrnsbGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCLhjR5BKxQVDAWAwbwZyjKrkXIG0mewq2NN4%2BqCrn%2Ffq9PYPUMqN8ErMgm%2F2wOL7m2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819237739510394098" target="_blank"><img class="imgg" src="./images/ksbd2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg11">
+            <div class="image1">
+                <img id="image11" src="./images/na1.jpg" alt="">
+                <img id="image12" src="./images/na2.jpg" alt="">
+                <img id="image13" src="./images/na3.jpg" alt="">
+                <img id="image14" src="./images/na4.webp" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Nghệ An</h1>
+                </div>
+                <div class="text1">
+                  Nghe An, Vietnam's largest province located in the North Central region, is famous for its diverse natural beauty, rich cultural heritage and heroic history. Vinh City, the center of the province, is a busy trade gateway and is also home to many historical landmarks such as Ho Chi Minh Square and Kim Lien Relic Area, the hometown of President Ho Chi Minh. grand. Nghe An also possesses beautiful natural landscapes such as Cua Lo beach with fine sand, clear blue sea, and Pu Mat national park, a large primeval forest with rich flora and fauna. Tourists Coming to Nghe An, you cannot miss Lan Chau Island, Hoi Gate, or experience the simple life in coastal fishing villages. Culturally, Nghe An is the cradle of Vi, Giam folk songs - an intangible heritage recognized by UNESCO.                </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+NEMO+S%C3%B3ng+Xanh.+Cu%E1%BB%91i+L%C3%AA+Mao+k%C3%A9o+d%C3%A0i+r%E1%BA%BD+ph%E1%BA%A3i+200m/@18.9419751,105.3375939,10z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBuZ2jhu4cgYW4!5m1!4e9!6e5!3m6!1s0x3139cb888d1be743:0xf2e853dddc10cb7a!8m2!3d18.6585605!4d105.6781955!15sChpuaMOgIGjDoG5nIGfhuqduIG5naOG7hyBhblocIhpuaMOgIGjDoG5nIGfhuqduIG5naOG7hyBhbpIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11jj1jt9vq?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qana.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+N%C3%A9t+Ngh%E1%BB%87+-+%C4%90%E1%BB%8Ba+ch%E1%BB%89+%C4%83n+ngon+n%C3%AAn+gh%C3%A9+%C4%91%E1%BA%BFn+t%E1%BA%A1i+C%E1%BB%ADa+L%C3%B2/@18.9419751,105.3375939,10z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBuZ2jhu4cgYW4!5m1!4e9!6e5!3m6!1s0x3139d5e1a4f8b4fd:0x32c74fbbde252d37!8m2!3d18.8092325!4d105.7203402!15sChpuaMOgIGjDoG5nIGfhuqduIG5naOG7hyBhblocIhpuaMOgIGjDoG5nIGfhuqduIG5naOG7hyBhbpIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11rqzbv82h?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qana2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001185741.Cua%20Dong%20Luxury%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU2B9D%2BXTtnp8xBPheXkh8zfSGncX6%2BjLJdhfwXfZlR7jfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOgTUF8uPIIQL0rCSb9XNHrUuyoWj6u%2F6QIxLeKCRuYW4FojraceyKrNRmvJY3C4ARNvmzpKB3IJycdCcd%2FTPv9xWiOtpx7Iqs1Ga8ljcLgBExRMjY4RH8ng%2Faj%2BIjo4bwp%2FnUKXTSeVIumnRcdMEOmBwi%2Fn2saw1CSujF%2FXfvbBZebpZaP6lPSTNy716ZBnPhqi1vsUhyiJ30nSE7pTi0KOmiw4mjKzvPuHybihY94iBnE%2FJv67fOsT8aHmUE%2Bnntx6EYX3pBXCz5EWuNjOlbLZ5ullo%2FqU9JM3LvXpkGc%2BGgfKgJ3j5WPgl%2FIfdDsgiawiwDoyoR6C%2B6nBumT%2BE%2BHp0g%2B7x785kwvRwntERKG%2BYTiceUfGFPL5gxb%2BO%2FZjViyfnt9cwaKMubsaAsTuw8lnFwFg7Q5p0PSGRSY4ocA%2B6TrY5HJcF4cw%2BOzFZrVKzdrlc9cPDYQmVupLIt8pP7p0kcBbtr2L7fB%2Fql6qPlb8qyy9LvDocukB%2BS8DxHKFJkQxJNk%2B2426yWfLIAwCq7oGj2%2BCmLV55ocoNLPjsI5ZTb0%2ByfsDVr9B4eshdZkhvLbaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCIn5%2FQ%2Bese7BlruJs01I8flZg3fatMpBDEP4fBT%2F3SZfKJzxFDJi65rc3gkSmAxjczv%2FzsbeFoDDzbB1xmjlVorQaqB7gtVEMeIiHyRc0xi5l9RXwcRQMVWWEAomPlZ9U19WGC7vBmsq91dShAz53TpByPQzrcqoeOzWhLpxAMjfeR4X%2F7F12yianjjqT33AdLU1J5BxheoMDEO51S4%2BuJtnykJmSxdSoytLNpB%2B0pG7%22%7D&loginPromo=1&prevSearchId=1819237844867112479" target="_blank"><img class="imgg" src="./images/ksna.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.1000000503924.Muong%20Thanh%20Vinh%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0f1UvQhac4whlEBP%2FFa3%2BjVfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiSNxJdFPKoUlCcNH0aP52YikN6IXjwpwr4wa2Cs%2F2upY%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJHz7ToHtq42tHdCyR%2FISWv81wufbIKtyrlgZ%2Fm3UbwmCVRjFrVyBlODyHAd8wgnaikfpg9dvumAsE2Qxr131bx1lrFIB8SthBEMERJsvVZRx3vnIOfhbJ5pp71iuUTNZ%2F0QssIJF4VVvNjJAaBS7K7CET71RCoGXbbegw8hxzHKa2fF88gEAfF5HSKCC9XRgKUeOBe5DCExn8JRtNPjPZYXzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819237844867112479" target="_blank"><img class="imgg" src="./images/ksna2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg12">
+            <div class="image1">
+                <img id="image11" src="./images/ht1.jpg" alt="">
+                <img id="image12" src="./images/ht2.jpg" alt="">
+                <img id="image13" src="./images/ht3.jpg" alt="">
+                <img id="image14" src="./images/ht4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Hà Tĩnh</h1>
+                </div>
+                <div class="text1">
+                  Ha Tinh, a province located in North Central Vietnam, stands out with its wild natural beauty, rich culture and heroic history. This place owns beautiful beaches such as Thien Cam and Xuan Thanh, with fine white sand and fresh air, making them ideal destinations to relax. Ke Go Nature Reserve, with its diverse ecosystem, gives visitors the opportunity to explore the majestic primeval forest. Ha Tinh also has special landscapes such as Hong Linh Mountain, which is associated with many folk legends, and Huong Tich Pagoda, known as "the first scenic spot in Hoan Chau".         </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+C%C6%A1m+Ni%C3%AAu+H%C3%A0+T%C4%A9nh/@18.356362,105.8523043,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgdMSpbmg!5m1!4e9!6e5!3m6!1s0x31384fe986f0af91:0xdd5eaffc34bf5e47!8m2!3d18.3366824!4d105.892327!15sChpuaMOgIGjDoG5nIGfhuqduIGjDoCB0xKluaFocIhpuaMOgIGjDoG5nIGfhuqduIGjDoCB0xKluaJIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11sb7s4scc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaht.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/C%C6%A1m+Vi%E1%BB%87t-+Nh%C3%A0+H%C3%A0ng+C%C6%A1m+Ni%C3%AAu+Ngon+H%C3%A0+T%C4%A9nh/@18.356362,105.8523043,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBow6AgdMSpbmg!5m1!4e9!6e5!3m6!1s0x31384f520c1ad0c3:0xde6a651092aef35!8m2!3d18.3377826!4d105.8913389!15sChpuaMOgIGjDoG5nIGfhuqduIGjDoCB0xKluaFocIhpuaMOgIGjDoG5nIGfhuqduIGjDoCB0xKluaJIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11l2ws6pdr?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaht2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020014946.Eagle%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuSiepRMjynQDzH0g59JDHlYfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOhqSdeRrOIJdiNjtKln2V62nsIPZQ4rht7UF4l%2Bs2EAx4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0aJkPRH8j2hvndqSj20tfdHTXB8nbt8s1IT6eJ%2FuXx6%2BXvxpTjjnFqlxfrNlwAHCHrGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCBeQaoGxaf9kixMzR585jnuAAI%2BWfO1csP8uPbP1S%2F89D%2FUALTULY9axloquJl489WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819237962318111319" target="_blank"><img class="imgg" src="./images/ksht.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000010029708.Muong%20Thanh%20Grand%20Ha%20Tinh%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0dMu48W%2BsrgidqGXXqcZ6l2fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOgTUF8uPIIQL0rCSb9XNHrUc3tBoyUwuslzk05MhzSWaFojraceyKrNRmvJY3C4ARNvmzpKB3IJycdCcd%2FTPv9xWiOtpx7Iqs1Ga8ljcLgBExRMjY4RH8ng%2Faj%2BIjo4bwp%2FnUKXTSeVIumnRcdMEOmBwi%2Fn2saw1CSujF%2FXfvbBZebpZaP6lPSTNy716ZBnPhqi1vsUhyiJ30nSE7pTi0KOmiw4mjKzvPuHybihY94iBnE%2FJv67fOsT8aHmUE%2Bnntx6EYX3pBXCz5EWuNjOlbLZ5ullo%2FqU9JM3LvXpkGc%2BGgfKgJ3j5WPgl%2FIfdDsgiawiwDoyoR6C%2B6nBumT%2BE%2BHp0g%2B7x785kwvRwntERKG%2BYTiceUfGFPL5gxb%2BO%2FZjViyfnt9cwaKMubsaAsTuw8lnFwFg7Q5p0PSGRSY4ocA%2B6TrY5HJcF4cw%2BOzFZrVKzdrlc9cPDYQmVupLIt8pP7p0zqKelNLUhAozjTV68x48UiIOPFaAFcMSvZefZboH%2BRTAEsUnVI3OHD3lq6BItDqxG3%2BIwIZK9k0LTNbkYlgo8urMRFqkClyPL3IgYNRxIfpJPaeiGbr9TdKD3lfZYQhwLOsg%2BtVMwgdLBQwCFoUNCD5A77mKTiLe%2FCm%2FIA%2BGbTqYt4gKxBnR8q2%2BxIvxwyym8eTiFjXDr9gEPXW3tCWu3jv%2FzsbeFoDDzbB1xmjlVorQaqB7gtVEMeIiHyRc0xi5l9RXwcRQMVWWEAomPlZ9U19WGC7vBmsq91dShAz53TpByPQzrcqoeOzWhLpxAMjfeR4X%2F7F12yianjjqT33AdLU1J5BxheoMDEO51S4%2BuJtnykJmSxdSoytLNpB%2B0pG7%22%7D&loginPromo=1&prevSearchId=1819237962318111319" target="_blank"><img class="imgg" src="./images/ksht2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg13">
+            <div class="image1">
+                <img id="image11" src="./images/hue1.jpg" alt="">
+                <img id="image12" src="./images/hue2.jpg" alt="">
+                <img id="image13" src="./images/hue3.webp" alt="">
+                <img id="image14" src="./images/hue4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Thừa Thiên Huế</h1>
+                </div>
+                <div class="text1">
+                  Thua Thien Hue, the ancient capital located in Central Vietnam, is famous for its ancient, poetic beauty and rich culture. Hue City, the center of the province, was once the capital of the Nguyen Dynasty, possessing the Hue Monuments Complex - a world cultural heritage recognized by UNESCO, with works such as the Citadel and mausoleums. Imperial Palace of King Nguyen, and Thien Mu Pagoda on the romantic Perfume River. Perfume River and Truong Tien Bridge are romantic symbols of Hue, attracting tourists from all over to visit. Thua Thien Hue also stands out with beautiful beaches such as Thuan An, Lang Co, and Tam Giang lagoon, The ideal place to immerse yourself in nature. This place is also the cradle of Hue royal court music, an intangible cultural heritage recognized by UNESCO, reflecting the quintessence of ancient royal culture.                </div>
+                </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+C%C6%A1m+Ni%C3%AAu+Kh%E1%BA%A3i+Ho%C3%A0n/@16.4554254,107.5628525,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBodeG6vw!5m1!4e9!6e5!3m6!1s0x3141a123202fa071:0xada795c3ac52c09d!8m2!3d16.4711227!4d107.5948473!15sChZuaMOgIGjDoG5nIGfhuqduIGh14bq_WhgiFm5ow6AgaMOgbmcgZ-G6p24gaHXhur-SAQpyZXN0YXVyYW504AEA!16s%2Fg%2F1td22xy0?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qah.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/C%C6%A1m+ni%C3%AAu+Ch%E1%BA%A1n/@16.4554254,107.5628525,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBodeG6vw!5m1!4e9!6e5!3m6!1s0x3141a19e49ed668b:0x28883b290250d59b!8m2!3d16.468042!4d107.5949062!15sChZuaMOgIGjDoG5nIGfhuqduIGh14bq_WhgiFm5ow6AgaMOgbmcgZ-G6p24gaHXhur-SAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11hzxh51rx?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qah2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020015989.The%20Sunriver%20Boutique%20Hotel%20Hue.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdUwKh3BcjHsHvQbV0EUcyDRFgDlfzvVM5sodbFoq9B3u5fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8avrRHCDVBGdwUDRc3CK7iaY%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0c%2FD3Z6aJUyI266aMDrb5l9s5wXAcL2RrEkOEw4Hk3byNgLf%2BFh7mf68H5hFXpv0Z51hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7PURTIS3ldDA1byqblmQAyIqoXFE6QDHqhdaSQJTun%2BQU7uBPowuy5uc5dphOZnZSnzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819238075437441334" target="_blank"><img class="imgg" src="./images/ksh.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.1000000170888.Century%20Riverside%20Hotel%20Hue.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU9kbPIV7wiiSbKT%2BVN5tQV35Dwy1JCRVVYM%2F76SuKVaRfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiSNxJdFPKoUlCcNH0aP52YL2DBlcC8OOHrcdEWHGT4%2B4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJHz7ToHtq42tHdCyR%2FISWvyyBxCiGNfdM48dYqGx4YdnHecCjiDqqdm8TQMQFOE%2F%2B7idzpT0qoTrdV6551E4gYbGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCA582UQ5Y0qXUT2VrndERK%2Fzs1eaBOVWmElc7yPX4lwzBpbqzhBe2QebHI2LU0JPyWVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238075437441334" target="_blank"><img class="imgg" src="./images/ksh2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg14">
+            <div class="image1">
+                <img id="image11" src="./images/bt11.jpeg" alt="">
+                <img id="image12" src="./images/bt2.jpg" alt="">
+                <img id="image13" src="./images/bt3.jpg" alt="">
+                <img id="image14" src="./images/bt4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Bình Thuận</h1>
+                </div>
+                <div class="text1">
+                  Binh Thuan is a coastal province in Central Vietnam, famous for its beautiful beaches and mild climate. Phan Thiet city is the province's tourism center, attracting tourists with beaches such as Mui Ne and Hon Rom, along with high-end resorts. Binh Thuan also has landscapes such as flying sand dunes and Lau Ong Hoang relic site. This province is also notable for its traditional salt making and seafood products.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+%E1%BA%A8m+th%E1%BB%B1c+L%C3%A0ng+Ch%C3%A0i+X%C6%B0a/@10.8151474,107.8631765,11z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBiw6xuaCB0aHXhuq1u!3m6!1s0x317681dd787e18f1:0x3e994dcdcb55f9ec!8m2!3d10.871453!4d108.0546487!15sCh5uaMOgIGjDoG5nIGfhuqduIGLDrG5oIHRodeG6rW5aICIebmjDoCBow6BuZyBn4bqnbiBiw6xuaCB0aHXhuq1ukgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11j_1vq4q0?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabt.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/C%C6%A1m+Ni%C3%AAu+Panda+-+Phan+Thi%E1%BA%BFt/@10.8151474,107.8631765,11z/data=!4m10!1m2!2m1!1zbmjDoCBow6BuZyBn4bqnbiBiw6xuaCB0aHXhuq1u!3m6!1s0x317683e1456c538d:0x8117cb1ca47541!8m2!3d10.935067!4d108.1076599!15sCh5uaMOgIGjDoG5nIGfhuqduIGLDrG5oIHRodeG6rW5aICIebmjDoCBow6BuZyBn4bqnbiBiw6xuaCB0aHXhuq1ukgEPcmljZV9yZXN0YXVyYW504AEA!16s%2Fg%2F11h_g11b71?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabt2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.1000001736180.Meraki%20Oasis.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdUwKh3BcjHsHvQbV0EUcyDRHxEhHBJ9%2FYau5mbtG7isP5fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiSNxJdFPKoUlCcNH0aP52YitiKJmu%2Bp%2Fq%2BPfMwNzvV%2Fo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJHz7ToHtq42tHdCyR%2FISWv2jpZP6hGx1KSNiLQ3MaCDjlq0%2BBXVxDxv7F6zoqp4L%2B0BBLkve5sWWyi62oV4ks851hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7B0CJp7lUHeRUb%2BvcQmS0lBSuTgOpV1DWdwtQixzF940VDY3uKnkfBf9soL4MJpC2HzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819238260783735383" target="_blank"><img class="imgg" src="./images/ksbt.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020012258.Venus%20Mui%20Ne%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPT9rK1GesWEMKkapXi8yJJYfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiXRHzAZDWeuG0F1hB7SR6yWzdrrBon9%2FJUbXfic9csw4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0W897ZDluVSOqzENnIKBw1rtDqAfbn1z725iQEg2mrmjO0%2FmN3ZjD3T0EYxTCiujPrGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCGbo%2FvjUcq2Ekki4AHzQHfwHllz%2BApDFz8%2FsAgPHD%2FZJwJ%2FWQsJy8AwuLIP8HkMtWmVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238260783735383" target="_blank"><img class="imgg" src="./images/ksbt2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">    
+        <div class="bg bg16">
+            <div class="image1">
+                <img id="image11" src="./images/qb1.webp" alt="">
+                <img id="image12" src="./images/qb4.jpg" alt="">
+                <img id="image13" src="./images/qb3.webp" alt="">
+                <img id="image14" src="./images/qb2.webp" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Quảng Bình</h1>
+                </div>
+                <div class="text1">
+                  Quang Binh is a province located in Central Vietnam, famous for its majestic natural beauty and scenic spots. In particular, Quang Binh is home to Phong Nha - Ke Bang cave, a world natural heritage with a magnificent cave system. In addition, the province also has Nhat Le beach, Ngang pass, and historical sites such as Quang Binh ancient citadel. Quang Binh is also the hometown of many historical and cultural celebrities.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/KH%C3%93I+Bistro/@17.5508882,106.3631823,12z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIGLDrG5o!5m1!4e9!6e5!3m6!1s0x3147579258e823df:0x531dce1042000d5d!8m2!3d17.4773891!4d106.6120718!15sCh5uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgYsOsbmhaICIebmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIGLDrG5okgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11sj700drp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaqb.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/PHONG+NHA+FAMILY+RESTAURANT+(NH%C3%80+H%C3%80NG+GIA+%C4%90%C3%8CNH+VI%E1%BB%86T+NAM)/@17.6134894,106.163741,12z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIGLDrG5o!5m1!4e9!6e5!3m6!1s0x3138bb1878e1b103:0x64b3fb9b400d7c14!8m2!3d17.6134894!4d106.3161763!15sCh5uaMOgIGjDoG5nIGfhuqduIHF14bqjbmcgYsOsbmhaICIebmjDoCBow6BuZyBn4bqnbiBxdeG6o25nIGLDrG5okgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11h6mcjb5f?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaqb2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000010025020.Kha%CC%81ch%20sa%CC%A3n%20Riverside%20Qua%CC%89ng%20Bi%CC%80nh.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft7PVMK07YC03r9WeeCu%2BccZfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8aW7%2Ft%2F0v5mIHw9UzXOLxteY%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0eb%2B3wBXU7dBHNMkPRI5T7risME1UnPIoB6gITvPnJVuRb4tCZ8FTgJTpoi8JvChP4pXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCCj2lWGTMxxAZITDIcPGaVhSLoOTbq9fCpMmnv6umGO%2BcjL%2FH%2BNr6ytrQbKcv3HukmVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238387150774624" target="_blank"><img class="imgg" src="./images/ksqb.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000337372.Windy%20Hotel%20Quang%20Binh.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPQgSh8aTQDP5fd0Tm1oJo3RfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjrKNUemG6lN9zinrcFk9lNaFQL6mctYXVjvf8ftqlVjo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hwi3FX0keImUTGVOzRPHDcU%2FvqkmSUjf5vfPkkA7Zjkqrhj6znlMHfUhv8YtDDzDo7GnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCDe9pCHDt%2BK5Tz3CRRiheUiQYfH%2FwCdx4JRaCItz%2BPy3D%2FUALTULY9axloquJl489WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238387150774624" target="_blank"><img class="imgg" src="./images/ksqb2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade" id="miennam">
+        <div class="bg bg15">
+            <div class="image1">
+                <img id="image11" src="./images/tphcm1.jpg" alt="">
+                <img id="image12" src="./images/tphcm4.jpeg" alt="">
+                <img id="image13" src="./images/tphcm3.jpg" alt="">
+                <img id="image14" src="./images/tphcm2.webp" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>TP-HCM</h1>
+                </div>
+                <div class="text1">
+                  Ho Chi Minh City - one of the most developed cities in Vietnam, is also an interesting tourist destination with bustling streets, diverse culture, and a dynamic pace of life that makes you forget the way home. Coming to Ho Chi Minh City, you will be lost in shopping paradise, along with attractive, attractive and exciting entertainment activities day and night.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Ti%E1%BB%87m+N%C6%B0%E1%BB%9Bng+Nh%C3%A0+Bird/@10.7952498,106.63855,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiB0cC1oY20!5m1!4e9!6e5!3m6!1s0x317529b4e0d308f3:0xb0d929951349eb3b!8m2!3d10.7930544!4d106.6398013!15sChduaMOgIGjDoG5nIGfhuqduIHRwLWhjbVoZIhduaMOgIGjDoG5nIGfhuqduIHRwIGhjbZIBE2JhcmJlY3VlX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11sv6tpyj3?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qatphcm.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Chanh+Bistro+Rooftop/@10.7930544,106.5635836,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiB0cC1oY20!5m1!4e9!6e5!3m6!1s0x31752f413ed490bf:0x4063b00cc5f56eb5!8m2!3d10.7727413!4d106.6956617!15sChduaMOgIGjDoG5nIGfhuqduIHRwLWhjbVoZIhduaMOgIGjDoG5nIGfhuqduIHRwIGhjbZIBEndlc3Rlcm5fcmVzdGF1cmFudOABAA!16s%2Fg%2F11b7fb9vf4?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qatphcm2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.4000001082146.Cozrum%20Homes%20-%20Sonata%20Residence.2&contexts=%7B%22inventoryRateKey%22%3A%22r%2F4%2FIbSpsApptn70HsOVHP1%2Bi1SHhkRa3idkrzICNj4dEvvW%2BsMTfF0LL0XINC9JmSK%2BC8m4YDdYtBHUalUfrvsiEbiy2n3yBgneU5TLRjIa7aLchboS7wdNkBRjAqgQL8Wgf%2Fmzqcmw3PrdUN%2BC4uT3cmC%2BBzZqbR8W%2FZADv0rcLzwFIvhl3NGqhf0y7SOqZzxGJ%2FyLZiiLRYS%2FH5sMs2AXCnYVY2JxtBF0LE4X8TwdZQ%2Bmo27xejTh5Oc4izw39PCWSVDKwnP%2FUeFnHAmHq0P1a2C211JkQoCvOnw%2FXAF26T8o790RIclYDsF7jT9%2BcrFY9oFTmI%2BuhAf1m4i0MQ7X%2FrM2XiluLfBpzLJD%2Fb%2B5CR8F%2FpRFkZMEbwuC3KK2Yg%2BEJ8K046wJ9R2Dj8tvWdomDoUuMEjk0Bs8ifzfPptBpm91DpTdLg%2B%2FzK6QY%2FIKskN%2FzH%2F5Rc9UyLX3tFR0jLkJHwX%2BlEWRkwRvC4LcorZE5lH7CkmhuKUZUVANNehpmukY4Wfv%2BkFduc7hBHb6pnn4aNKOyoG7Jito5SHkdjo0bXHRx6PwFsBDwx4PdDdUfTttQXVTLpoSidS2Vk2IQKraL3%2B5e1oeju2nE%2FCHues5I1GzKTMKA%2FGw3X0qzb2HoyYXRBM4iOF5d4kSWB5OPS5ZElykTMtae1pZiCJ7d2Bz621LyCJSlxFOhAa8EiarQ5t7cqPSBzVKCur5kDH5RsXx9mylKUoxLgOp0XlKcJ7oMikjsbFsFDODLFNc4Fn6LOsg%2BtVMwgdLBQwCFoUNCPb2bkb8Xy4bdBi1uCi4XKeMH7ayX%2BOSgtopznT%2F48CC%2Ffpeq1Z1URc%2F4U1gVG9%2BC2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238529888187086" target="_blank"><img class="imgg" src="./images/kstphcm.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000882654.Cozrum%20Homes%20The%20Gallery%20Residence.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0SwSlMd5KjXi8Ua6ig3%2Bd0qlkoaMOJVAQZBQo9UwtOfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiXRHzAZDWeuG0F1hB7SR6yZ89%2BMPWViodAIE8ymlS61I%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h1g1f1U5fwHkLN4yIlcDIE9KWCpSrWxkUZmf%2BPciDQ3aWpm%2F9IgflZ9kRfUHt23iPrGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCFcdL%2F22Daw03AHdyCinP3cH%2B9PXdVXB5pVLctG%2F2FUSinMUot9%2B1Em0ZFhnwrYsi2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238529888187086" target="_blank"><img class="imgg" src="./images/kstphcm2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg17">
+            <div class="image1">
+                <img id="image11" src="./images/ct1.webp" alt="">
+                <img id="image12" src="./images/ct2.webp" alt="">
+                <img id="image13" src="./images/ct3.jpg" alt="">
+                <img id="image14" src="./images/ct4.png" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Cần Thơ</h1>
+                </div>
+                <div class="text1">
+                  Can Tho is a tourist destination in the Western region of the country. The most prominent is the bustle of the floating market in the early morning, the lush orchards laden with fruit and the unique house architecture growing along the riverbank. All of them create a simple beauty that cannot be confused with anywhere else.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Grill+%26+Cheer+Vincom+Xu%C3%A2n+Kh%C3%A1nh/@10.0358765,105.7632328,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBj4bqnbiB0aMah!5m1!4e9!6e5!3m6!1s0x31a08825ca7019a1:0x3411a6b5702af4e5!8m2!3d10.0246682!4d105.7750127!15sChtuaMOgIGjDoG5nIGfhuqduIGPhuqduIHRoxqFaHSIbbmjDoCBow6BuZyBn4bqnbiBj4bqnbiB0aMahkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11dxdzmx15?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qact.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+H%E1%BA%A7m+R%C6%B0%E1%BB%A3u+C%C3%A1o+Nho/@10.0358765,105.7632328,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBj4bqnbiB0aMah!5m1!4e9!6e5!3m6!1s0x31a089b9dfe6d3bf:0xdd48e103ab395936!8m2!3d10.0459237!4d105.7621914!15sChtuaMOgIGjDoG5nIGfhuqduIGPhuqduIHRoxqFaHSIbbmjDoCBow6BuZyBn4bqnbiBj4bqnbiB0aMahkgERZmFtaWx5X3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11stdpqgpy?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qact2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000987844.Kh%C3%A1ch%20S%E1%BA%A1n%20Lion%203%20C%E1%BA%A7n%20Th%C6%A1.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft6O4HV24n3sqa1j7fvgAzKcfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8aUbWIlbG1ZcTMzCCRkQD%2Fvo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h64wzAYt4M1YpINMUR9R2L8KvooTjjKxZpB9hmtGRnqXaRRgdVO63Lh6Et4Do1CzaYpXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCD%2FE1euPzjl4Y66d7s9pDzypnLSAUYtM41dm4jbBSz7lD%2FUALTULY9axloquJl489WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238708099964447" target="_blank"><img class="imgg" src="./images/ksct.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000003303045.V%27Luna%20Hotel%20-%20Managed%20by%20THM.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuRXGR9DwCApiurd3dXBlsaKfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjT2kAb5PFnnUsj4yv%2BE8%2BEMneDfLoCQ%2FGflHXvA94EYo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h8J2eQ8cYVlsUaZRq9VMLMyVqDhLksYQ4noVoPVXNXaqEfTXX0N0onpytac5JG5A77GnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCFqE1JfBjvxYykfUb46B%2F2SchGSlqdxW5PmGvbLomeLsPs4QCNEVZFksL60K9ZITB2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819238708099964447" target="_blank"><img class="imgg" src="./images/ksct2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg18">
+            <div class="image1">
+                <img id="image11" src="./images/kg1.jpg" alt="">
+                <img id="image12" src="./images/kg2.jpg" alt="">
+                <img id="image13" src="./images/kg3.jpg" alt="">
+                <img id="image14" src="./images/kg4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Kiên Giang</h1>
+                </div>
+                <div class="text1">
+                  Kien Giang is a cultural land converging many famous Southern tourist destinations such as Phu Quoc Pearl Island, Ha Tien landscape, Nam du island, U Minh Thuong forest, many pagodas with unique Khmer architecture... Visitors can explore the fascinating natural beauty bestowed on this land.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Sea+Palace/@9.9960172,104.4737227,10z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBracOqbiBnaWFuZw!5m1!4e9!6e5!3m6!1s0x31a0b5d00c604fe3:0xc723f121a6e5f9e6!8m2!3d9.9960172!4d105.0834639!15sChxuaMOgIGjDoG5nIGfhuqduIGtpw6puIGdpYW5nWh4iHG5ow6AgaMOgbmcgZ-G6p24ga2nDqm4gZ2lhbmeSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11hkj54z34?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qakg.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Buffet+39+-+L%E1%BA%A9u+%26+N%C6%B0%E1%BB%9Bng+-+H%E1%BA%A3i+s%E1%BA%A3n+s%E1%BB%91ng/@9.9960172,104.4737227,10z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBracOqbiBnaWFuZw!5m1!4e9!6e5!3m6!1s0x31a0b538edd6cc67:0x1c1a5c3982d09cf!8m2!3d9.9741636!4d105.0953246!15sChxuaMOgIGjDoG5nIGfhuqduIGtpw6puIGdpYW5nWh4iHG5ow6AgaMOgbmcgZ-G6p24ga2nDqm4gZ2lhbmeSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11gvxrws6v?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qakg2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020008174.The%20Palmy%20Ph%C3%BA%20Qu%E1%BB%91c%20Resort%20%26%20Spa.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPQEXsJd4OxzcActoxUzHkr0fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOgTUF8uPIIQL0rCSb9XNHrU1O0f3vRlcvacnPqm5eiwVlojraceyKrNRmvJY3C4ARNvmzpKB3IJycdCcd%2FTPv9xWiOtpx7Iqs1Ga8ljcLgBExRMjY4RH8ng%2Faj%2BIjo4bwp%2FnUKXTSeVIumnRcdMEOmBwi%2Fn2saw1CSujF%2FXfvbBZebpZaP6lPSTNy716ZBnPhqi1vsUhyiJ30nSE7pTi0KOmiw4mjKzvPuHybihY94iBnE%2FJv67fOsT8aHmUE%2Bnntx6EYX3pBXCz5EWuNjOlbLZ5ullo%2FqU9JM3LvXpkGc%2BGgfKgJ3j5WPgl%2FIfdDsgiawiwDoyoR6C%2B6nBumT%2BE%2BHp0g%2B7x785kwvRwntERKG%2BYTiceUfGFPL5gxb%2BO%2FZjViyfnt9cwaKMubsaAsTuw8lnFwFg7Q5p0PSGRSY4ocA%2B6TrY5HJcF4cw%2BOzFZrVKzdrlc9cPDYQmVupLIt8pP7p0zqKelNLUhAozjTV68x48UrunIfqXOvEsLI%2BItGg5ppJaJqGnNfIwvohlInT5K%2FiokDbPIV6XOqHgNaYXjfsxRT2sdNoBeUBBkOw5v7R2V0MeYEP%2BG8fuZlmOe4L6Y3tu%2FvIrJZGegy0KHbdaIUN%2BWxscYAdiHyJeRwFobknGB1Vyd%2FsV4yJf1tarTSN59dxtUByBztVI7LkrrV23H6nMSXDhX2EzXSX4OXTmuzjLvCmnt7CMEnZoRIyGOUrmmkzT%2F%2BHZ%2Bm9Wu7JGVzR94sBUj4EC%2Bxa9L5Sms4W1W0KjMhcJqjj%2FaEbM5hUC4Y2357kgVuMoHOHn9kFuWrRPlqEyUeC7Lmb7nbQPZ%2B%2BUTG7bM%2BOF7aOPxoLzqy2na5l9LjRv%22%7D&loginPromo=1&prevSearchId=1819239920532741663" target="_blank"><img class="imgg" src="./images/kskg.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001042173.Thien%20My%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPRsc6Kmqvqz5K5xFtgWMy2QfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjrKNUemG6lN9zinrcFk9lNmJYCDIxlrZ5ChVYwsF%2FIJ4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h1WZVYXjaQzfV%2B2NQtkEf9BYPIZ53uTWoe9PtcVnEpDkpc5hLt61Z0c5%2FS0WiswC4bGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCBHVelOkkKbg3qirNp%2FeLOkzx7UWIwCfMtapgWE9zY3ELABo232RXt2BHzt1iQ7mKmVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819239920532741663" target="_blank"><img class="imgg" src="./images/kskg2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg19">
+            <div class="image1">
+                <img id="image11" src="./images/cm1.jpg" alt="">
+                <img id="image12" src="./images/cm2.jpg" alt="">
+                <img id="image13" src="./images/cm3.jpg" alt="">
+                <img id="image14" src="./images/cm4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Cà Mau</h1>
+                </div>
+                <div class="text1">
+                  Ca Mau is known as the land at the end of the Fatherland and is always a Western tourist destination that must be visited once in the life of every Vietnamese person. The last province of the Vietnamese Fatherland with three main sides bordering the sea, here visitors will be able to visit national coordinate markers, admire the forest and sea, and admire the sunset over the vast sea and sky. Ca Mau exudes a poetic and lyrical, peaceful and rustic beauty that captivates the hearts of many visitors. We would like to introduce beautiful Ca Mau tourist destinations that cannot be missed.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/SAYAKA+-+N%C6%B0%E1%BB%9Bng+L%E1%BA%A9u+Nh%E1%BA%ADt+B%E1%BA%A3n/@9.1779918,105.148333,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBjw6AgbWF1!5m1!4e9!6e5!3m6!1s0x31a149ae92a72d45:0xe90adfb1f0686b40!8m2!3d9.1780173!4d105.1546386!15sChhuaMOgIGjDoG5nIGfhuqduIGPDoCBtYXVaGiIYbmjDoCBow6BuZyBn4bqnbiBjw6AgbWF1kgETamFwYW5lc2VfcmVzdGF1cmFudOABAA!16s%2Fg%2F11kt8td38p?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qacm.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+King+Cua/@9.1779918,105.148333,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBjw6AgbWF1!5m1!4e9!6e5!3m6!1s0x31a149135a9012f5:0x5cb4e8aeed18d8bc!8m2!3d9.1925569!4d105.1771787!15sChhuaMOgIGjDoG5nIGfhuqduIGPDoCBtYXVaGiIYbmjDoCBow6BuZyBn4bqnbiBjw6AgbWF1kgESc2VhZm9vZF9yZXN0YXVyYW504AEA!16s%2Fg%2F11t140p4k_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qacm2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001072887.Ruby%20Hotel%20Ca%20Mau.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft5a9uEvSF7JeO1w5qrZv9V8fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOg3Ecwbn2%2F2IuOUXTOX6qJUpIdScf7zkfRR8SGRB1WBPY%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hzMIWfJon9b0Xocwhs6E0fgBWQ%2BzPwdoLR3mHciH%2Ba667idzpT0qoTrdV6551E4gYYpXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCO4GhAv%2FJf%2FDjvIboidw5syrup9PuekBUGJArRLx6bEN6zoMidMHjZHdptylBCFmMWVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819243800094071342" target="_blank"><img class="imgg" src="./images/kscm.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020014905.Sao%20Kim%20Hotel%20Ca%20Mau.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft4sWBmnvYtpL4QmRO2Sjxi1fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8ay4sTk7d5l%2FIwxsZUWOJb9o%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0bw1OpepvqX8H%2FCEYLKy7gXTXB8nbt8s1IT6eJ%2FuXx6%2B2aP4ecJJxb%2Fh9qoAe6lP2opXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCByGy5T%2BDDSVEl1Ll%2FVn8FG%2F055LDYcpa3o0t1mmu%2FZoD%2FUALTULY9axloquJl489WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819243800094071342" target="_blank"><img class="imgg" src="./images/kscm2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg20">
+            <div class="image1">
+                <img id="image11" src="./images/st1.jpg" alt="">
+                <img id="image12" src="./images/st3.jpg" alt="">
+                <img id="image13" src="./images/st33.jpg" alt="">
+                <img id="image14" src="./images/st2.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Sóc Trăng</h1>
+                </div>
+                <div class="text1">
+                  Soc Trang, a peaceful land with long-standing cohabitation, harmony, and connection of the three ethnic groups Kinh, Khmer, and Chinese, is one of the beautiful and poetic cities in the Mekong Delta. This land is famous for ancient temples with unique architecture, peaceful natural scenery, rich cuisine and especially extremely gentle and friendly people. When traveling to Soc Trang, if you don't know where to go, don't forget to refer to the super beautiful Soc Trang tourist destinations below and enjoy your trip.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+%C4%91%E1%BA%A5t+S%C3%B3c+Tr%C4%83ng+-+Trang+Thanh+Thu%C3%BD/@9.6049034,105.9704951,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBzw7NjIHRyxINuZw!5m1!4e9!6e5!3m6!1s0x31a04d8972c388df:0x8728bcddadf9bb98!8m2!3d9.6015004!4d105.9758059!15sChxuaMOgIGjDoG5nIGfhuqduIHPDs2MgdHLEg25nWh4iHG5ow6AgaMOgbmcgZ-G6p24gc8OzYyB0csSDbmeSARJjaGlja2VuX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11ts360bn7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qast.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Kichi-Kichi+Vincom+S%C3%B3c+Tr%C4%83ng/@9.6049034,105.9704951,15z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBzw7NjIHRyxINuZw!5m1!4e9!6e5!3m6!1s0x31a04d6b1e4826c5:0x91629d0280e613d3!8m2!3d9.5972696!4d105.9710848!15sChxuaMOgIGjDoG5nIGfhuqduIHPDs2MgdHLEg25nWh4iHG5ow6AgaMOgbmcgZ-G6p24gc8OzYyB0csSDbmeSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11fr0c1v73?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qast2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000002809236.Kh%C3%A1ch%20s%E1%BA%A1n%20Thu%E1%BA%ADn%20Ph%C3%A1t%20House%20S%C3%B3c%20Tr%C4%83ng.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuRSdXYvtKL6TlS40NG%2BG%2B2ofwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjrKNUemG6lN9zinrcFk9lNxW6J6Q1TI9jZsAVT9CcIOo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hz7%2B1WDWpuSMb5q6ef%2Fd%2Bhv7ffAG8oB2cIDXV1VVHYUyazwelokBM%2BJggZgC%2FjIi4bGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCJy4O3EPCVvuy%2BBS782ra0JMOuBZWsu4oNqRT%2BdBJM4exhvwaTd6fbHm0g0KDhhA6WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819244458865094324" target="_blank"><img class="imgg" src="./images/ksst.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020004979.Kh%C3%A1ch%20s%E1%BA%A1n%20Satraco%20Royal.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU13LUNuufACdbU0usK5vg0cuP%2FhVXIINqrPKlIpfiV89fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjrKNUemG6lN9zinrcFk9lN6eD2sdmhmiFpNzWb31eoV4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJf6N3wn9HleqMyPM9CGgM0R3ABv6vJ3OKIT0ddUCjLGG6mJlur1ceHxV3B%2FzfsrT5LItLvKbgvQ%2Fi%2FI2%2F0D83e51hrTsGBmBOLDK5RvZkhvJZnD8jp0KmOn4FO0GzbakO0QssIJF4VVvNjJAaBS7K7Mg%2FHleWxExm8xNrj%2BB6Td5PkJMTDuL0d8b64CZvilf9QgZja7tARuIM67SMB0xjgHzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819244458865094324" target="_blank"><img class="imgg" src="./images/ksst2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg21">
+            <div class="image1">
+                <img id="image11" src="./images/dt2.jpg" alt="">
+                <img id="image12" src="./images/dt1.jpg" alt="">
+                <img id="image13" src="./images/dt3.jpg" alt="">
+                <img id="image14" src="./images/dt4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Đồng Tháp</h1>
+                </div>
+                <div class="text1">
+                    Dong Thap is a province in the Mekong Delta region, famous for the peaceful beauty of the river, immense lotus fields and the rich culture of the Southwest region. This is an attractive destination for tourists who love nature, exploring folk culture and learning about history.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/GoGi+House/@10.5429631,105.3889309,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiDEkeG7k25nIHRow6Fw!5m1!4e9!6e5!3m6!1s0x310a6588271ed887:0xf4a13deac92d0bf2!8m2!3d10.4555111!4d105.6339372!15sCh5uaMOgIGjDoG5nIGfhuqduIMSR4buTbmcgdGjDoXBaICIebmjDoCBow6BuZyBn4bqnbiDEkeG7k25nIHRow6FwkgEaa29yZWFuX2JhcmJlY3VlX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11jn_jnxpw?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qadt.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Nappun+Kitchen+-+Beefsteak+and+Salad/@10.5429631,105.3889309,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiDEkeG7k25nIHRow6Fw!5m1!4e9!6e5!3m6!1s0x310a65766348c129:0xa47dab16cd3e7cac!8m2!3d10.4554249!4d105.6423567!15sCh5uaMOgIGjDoG5nIGfhuqduIMSR4buTbmcgdGjDoXBaICIebmjDoCBow6BuZyBn4bqnbiDEkeG7k25nIHRow6FwkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F11pwc9_vvh?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qadt2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000003254268.Hotel%20Tri%20Le%20PREMIER.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0SwSlMd5KjXi8Ua6ig3%2BfgtdZruAxNSGdra3kZLJSCfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOiXRHzAZDWeuG0F1hB7SR6yO9l2IJ1B%2FQZx4JIjPf5lv4%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h7DD3O9UMfJ26al5OUvcG0t7oD%2FDayMu0issO9NCwk93c98rGPvF1KI0L2W3YRWKx7GnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCL4nqRDQfb4fdQh%2B2J%2FovkXVzxk%2FGJwOckQC8HfzhDHkUTC089BU0PuMj0au0sYBm2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819244654058568873" target="_blank"><img class="imgg" src="./images/ksdt.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000928268.Thu%20Le%20Hotel.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPQT9TYjBxNuKTlO%2F%2BurvaPFfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8aQAJOZW3Wj0ukQi851D%2Fwuo%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h8CObF%2B7ZQXYP1zTWUB1NpzaesuMQuvTmQ6rhfQJFJppiCYCEdGR6b%2BqKqnlIdJDYLGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCGHyOnuJ2sMFVnxCkGN1mMfDKXSl56kL99NBuTWzYUbEexD7DQmiKb9KzFQs55ZJzmVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819244654058568873" target="_blank"><img class="imgg" src="./images/ksdt2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg22">
+            <div class="image1">
+                <img id="image11" src="./images/ag1.jpg" alt="">
+                <img id="image12" src="./images/ag2.jpg" alt="">
+                <img id="image13" src="./images/ag3.jpg" alt="">
+                <img id="image14" src="./images/ag4.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>An Giang</h1>
+                </div>
+                <div class="text1">
+                  An Giang makes a strong impression on tourists with the idyllic beauty of the Western river region, where there is a mixture and convergence of many unique cultures of the Kinh, Khmer, Cham, and Chinese communities. . Besides, An Giang also attracts many tourists because of its charming and poetic natural scenery with green rice fields and palm trees soaring high into the sky. With a terrain that has both plains and hills, the mysterious That Son range, many historical and cultural relics and many impressive check-in points, An Giang is a coordinate that attracts a large number of tourists.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+H%E1%BA%A3i+S%E1%BA%A3n+Long+Xuy%C3%AAn/@10.5427925,105.3875559,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBhbiBnaWFuZw!5m1!4e9!6e5!3m6!1s0x310a737681081829:0x40a41220d36a809e!8m2!3d10.3782106!4d105.4412909!15sChluaMOgIGjDoG5nIGfhuqduIGFuIGdpYW5nWhsiGW5ow6AgaMOgbmcgZ-G6p24gYW4gZ2lhbmeSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11kqcfp75k?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaag.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Bassac+Restaurant/@10.5427925,105.3875559,11z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBhbiBnaWFuZw!5m1!4e9!6e5!3m6!1s0x310a2402b3d06f2b:0x9d194ae6b7aabd69!8m2!3d10.7079512!4d105.1244529!15sChluaMOgIGjDoG5nIGfhuqduIGFuIGdpYW5nWhsiGW5ow6AgaMOgbmcgZ-G6p24gYW4gZ2lhbmeSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11f08lffdb?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qaag2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000974072.Marina%20Plaza%20Apartment%20Long%20Xuyen%20-%20An%20Giang.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU9ATNHJDYyOejTZyyXMNbasPvBPo%2BS6AIApmVJce86GDfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8aIW0sOV2kJNyo7huSiKkkUI%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hxQ4DZWDwXI4ToyOBWG7C1dVVF2lubWR9V2XC2%2Fr1qQl4I3%2Bd8mGsVZ3uaqw6wCKfVlrFIB8SthBEMERJsvVZRyo4NhFGDjObw%2BFBYo7O6Aa0QssIJF4VVvNjJAaBS7K7GdjfI8ovKT%2B0Jc5uUbU75GA36NPlr4PT1xe%2FUnxmY%2Fau4vWYDqK9DTAfjorzMpJynzNpd7mW%2BRuifZxqh7JqTUp4VjjvrWMhBA5hxYXQQxCaKrT2lMLU%2Br8YJwJC19O5Hb%2Fc1ZF7nMQXVtU2XX4meGGSYJ%2FLQTQohOyNs9kNXlne0TapLFdx2NZ6g8LC%2BdgFyzBZLnSSzm0ai0AQ3VDQHsGi%2F3PVEAPm5k0FNkvF5l5%22%7D&loginPromo=1&prevSearchId=1819244756179377615" target="_blank"><img class="imgg" src="./images/ksag.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000962505.Hero%20Hostel%20%26%20Billiards.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuTMWqajHQgpDQje47ms%2BPf6fwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOj4QS%2F7lP5X9%2BhoRMjd5e8afmcm6QN565nadFD4ZO4s1Y%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4hxz7q%2BKlB8CW0nc4%2FeHegzM8b3ZQMAZFbVZMabjJqO9KzrylPQKXRoqIxLBa6gaoV7GnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCEL%2BS%2FqZbwcCRWQpLvPH1f4rIFfKL2%2FsXak1e5c22tjOumM94yjVA%2BUIEaLyUqFpwGVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819244756179377615" target="_blank"><img class="imgg" src="./images/ksag2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg23">
+            <div class="image1">
+                <img id="image11" src="./images/btre4.jpg" alt="">
+                <img id="image12" src="./images/btre3.jpg" alt="">
+                <img id="image13" src="./images/btre2.jpg" alt="">
+                <img id="image14" src="./images/btr2.jpg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Bến Tre</h1>
+                </div>
+                <div class="text1">
+                  Ben Tre is a province in the Southwest region, traveling to Ben Tre not only immerses you in the peaceful beauty of the river but also provides a great opportunity to explore the unique cuisine and culture of this region. this land. Known as the land of coconuts, Ben Tre possesses an intricate river system with fruitful orchards, rich aquatic resources, cool weather all year round, and fresh air, making this place a tourist destination. ideal for attracting a large number of visitors
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/Ph%E1%BB%9F+H%E1%BB%93ng+C%C3%BAc+-+Ph%E1%BB%9F+B%E1%BA%BFn+Tre/@10.2717946,106.3301333,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBi4bq_biB0cmU!5m1!4e9!6e5!3m6!1s0x310aa937a849aef7:0x3ffd58e6bbecc15d!8m2!3d10.2244642!4d106.3675026!15sChpuaMOgIGjDoG5nIGfhuqduIGLhur9uIHRyZVocIhpuaMOgIGjDoG5nIGfhuqduIGLhur9uIHRyZZIBBmJpc3Ryb-ABAA!16s%2Fg%2F11rv5_w1g_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabtre.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/L%C3%A0ng+%E1%BA%A8m+Th%E1%BB%B1c+H%E1%BB%93ng+C%C3%BAc/@10.2717946,106.3301333,13z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiBi4bq_biB0cmU!5m1!4e9!6e5!3m6!1s0x310aaf091b98d0b5:0xb946b4fab03dff12!8m2!3d10.305002!4d106.3870625!15sChpuaMOgIGjDoG5nIGfhuqduIGLhur9uIHRyZVocIhpuaMOgIGjDoG5nIGfhuqduIGLhur9uIHRyZZIBEWZhbWlseV9yZXN0YXVyYW504AEA!16s%2Fg%2F11t9x3mx2c?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qabtre2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000000321012.Kh%C3%A1ch%20s%E1%BA%A1n%20Tr%C6%B0%E1%BB%9Dng%20Th%E1%BB%8Bnh.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU%2B0DXZ%2BT%2Bqw8uON7NhQf%2Ft4BaHcfZm4I6OTxvg8tmXOFfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjT2kAb5PFnnUsj4yv%2BE8%2BEy4sTk7d5l%2FIwxsZUWOJb9o%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h20Gybq19KfKlk3qy29xmEviU%2F8CPkCLdYBw5KIF9VFpbJpO0zNK8s8US2IznPQAZYpXH93EnyxrxdO%2FjlEXKB9OfWxJgkzoRRjUULQmHsLtLOsg%2BtVMwgdLBQwCFoUNCC9Tap7OszmxuYzv88r8HeWyyO7AKRUVF9Np0v95THvhcihl%2FC62C%2BZ%2BPDFKk6T882Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819244842180435407" target="_blank"><img class="imgg" src="./images/ksbtre.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000010033542.Kh%C3%A1ch%20s%E1%BA%A1n%20Vi%E1%BB%87t%20%C3%9Ac.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU41Bylvj7%2F%2FvUIafxcp%2FoPRRjxL51exsAq4fBcVjm4TDfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOgTUF8uPIIQL0rCSb9XNHrUtM42ujCjUdjjfy8oRqHpJlojraceyKrNRmvJY3C4ARNvmzpKB3IJycdCcd%2FTPv9xWiOtpx7Iqs1Ga8ljcLgBExRMjY4RH8ng%2Faj%2BIjo4bwp%2FnUKXTSeVIumnRcdMEOmBwi%2Fn2saw1CSujF%2FXfvbBZebpZaP6lPSTNy716ZBnPhqi1vsUhyiJ30nSE7pTi0KOmiw4mjKzvPuHybihY94iBnE%2FJv67fOsT8aHmUE%2Bnntx6EYX3pBXCz5EWuNjOlbLZ5ullo%2FqU9JM3LvXpkGc%2BGgfKgJ3j5WPgl%2FIfdDsgiawiwDoyoR6C%2B6nBumT%2BE%2BHp0g%2B7x785kwvRwntERKG%2BYTiceUfGFPL5gxb%2BO%2FZjViyfnt9cwaKMubsaAsTuw8lnFwFg7Q5p0PSGRSY4ocA%2B6TrY5HJcF4cw%2BOzFZrVKzdrlc9cPDYQmVupLIt8pP7p0zqKelNLUhAozjTV68x48Uk9xdgdYgWqAm3GmwhCVe8QNC8TbUuUK8%2BudztLGsKYEwgsRkZdQ4HTVnThdYAo8cj2sdNoBeUBBkOw5v7R2V0MeYEP%2BG8fuZlmOe4L6Y3tu%2FvIrJZGegy0KHbdaIUN%2BWxhfHACtawXSmf5x%2Bc7irTDOwCvij0PMhGTa17mh%2FwX3xU2WFC6T9rmIA0UYDaDM7XDhX2EzXSX4OXTmuzjLvCmnt7CMEnZoRIyGOUrmmkzT%2F%2BHZ%2Bm9Wu7JGVzR94sBUj4EC%2Bxa9L5Sms4W1W0KjMhcJqjj%2FaEbM5hUC4Y2357kgVuMoHOHn9kFuWrRPlqEyUeC7Lmb7nbQPZ%2B%2BUTG7bM%2BOF7aOPxoLzqy2na5l9LjRv%22%7D&loginPromo=1&prevSearchId=1819244842180435407" target="_blank"><img class="imgg" src="./images/ksbtre2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+    <div class="slide fade">
+        <div class="bg bg24">
+            <div class="image1">
+                <img id="image11" src="./images/tn1.jpg" alt="">
+                <img id="image12" src="./images/tn4.jpeg" alt="">
+                <img id="image13" src="./images/tn2.jpg" alt="">
+                <img id="image14" src="./images/tn3.jpeg" alt="">
+            </div>
+            <div class="content1">
+                <div class="heading1">
+                    <h1>Tây Ninh</h1>
+                </div>
+                <div class="text1">
+                    Tay Ninh, located in the Southeast region, is a land rich in cultural and spiritual traditions, and possesses many beautiful natural landscapes. The most prominent in Tay Ninh is Ba Den Mountain, the symbol of the province, where visitors can climb the mountain, conquer the "roof of the South" or use the cable car to admire the majestic scenery. Tay Ninh is also the center of Cao Dai religion with the Tay Ninh Cao Dai Holy See, a unique architectural work, attracting many followers and tourists. Besides, Dau Tieng Lake, one of the largest artificial lakes in Vietnam, provides a peaceful space, suitable for camping and relaxation.
+                </div>
+            </div>
+            <a class="prevv" onclick="plusSlides2(-1)">❮</a>
+            <a class="nextt" onclick="plusSlides2(1)">❯</a>
+        </div>   
+        <div class="footer">        
+            <div class="dexuat">
+                <h1>suggestion</h1>
+            </div>
+            <div class="nhahang moree">
+                <p>restaurant</p>
+                <a class="img1" href="https://www.google.com/maps/place/NH%C3%80+H%C3%80NG+CHAY+AN+VEGGIE/@11.3035789,106.1069705,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiB0w6J5IG5pbmg!5m1!4e9!6e5!3m6!1s0x310b434908e3a5e3:0x395c09e60f21c55a!8m2!3d11.3207337!4d106.1060202!15sChpuaMOgIGjDoG5nIGfhuqduIHTDonkgbmluaFocIhpuaMOgIGjDoG5nIGfhuqduIHTDonkgbmluaJIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11rg2mgf51?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qatnh.png" alt=""></a>
+                <a class="img2" href="https://www.google.com/maps/place/Nh%C3%A0+h%C3%A0ng+Sala+-+%C4%90%E1%BA%B7c+s%E1%BA%A3n+T%C3%A2y+Ninh/@11.3207337,106.0679114,14z/data=!4m13!1m5!2m4!1zbmjDoCBow6BuZyBn4bqnbiB0w6J5IG5pbmg!5m1!4e9!6e5!3m6!1s0x310b6bd194a886e5:0x9d5f78a97c154000!8m2!3d11.3035059!4d106.1194849!15sChpuaMOgIGjDoG5nIGfhuqduIHTDonkgbmluaFocIhpuaMOgIGjDoG5nIGfhuqduIHTDonkgbmluaJIBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11j2c56v6q?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><img class="imgg" src="./images/qatnh2.png" alt=""></a>
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="khachsan moree">
+                <p>hotel</p>
+                <a class="img1" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.3000020005976.Victory%20Hotel%20Tay%20Ninh.2&contexts=%7B%22inventoryRateKey%22%3A%22r%2F4%2FIbSpsApptn70HsOVHP1%2Bi1SHhkRa3idkrzICNj4dEvvW%2BsMTfF0LL0XINC9JS4JDSrxc1l1uiu33VqIZafsiEbiy2n3yBgneU5TLRjIa7aLchboS7wdNkBRjAqgQL8Wgf%2Fmzqcmw3PrdUN%2BC4uT3cmC%2BBzZqbR8W%2FZADv0rcLzwFIvhl3NGqhf0y7SOqWJ9SvczlUXlWsgvRnO57AgVYqQ6nTGT%2FVI%2FwzgW77cwdZQ%2Bmo27xejTh5Oc4izw39PCWSVDKwnP%2FUeFnHAmHq0P1a2C211JkQoCvOnw%2FXAF26T8o790RIclYDsF7jT9%2BcrFY9oFTmI%2BuhAf1m4i0MQ7X%2FrM2XiluLfBpzLJD%2Fb%2B5CR8F%2FpRFkZMEbwuC3KK2Yg%2BEJ8K046wJ9R2Dj8tvWdomDoUuMEjk0Bs8ifzfPptBpm91DpTdLg%2B%2FzK6QY%2FIKskN%2FzH%2F5Rc9UyLX3tFR0jLkJHwX%2BlEWRkwRvC4LcorZE5lH7CkmhuKUZUVANNehpmukY4Wfv%2BkFduc7hBHb6pnn4aNKOyoG7Jito5SHkdjo0bXHRx6PwFsBDwx4PdDdUfTttQXVTLpoSidS2Vk2IQKraL3%2B5e1oeju2nE%2FCHues5I1GzKTMKA%2FGw3X0qzb2HoyYXRBM4iOF5d4kSWB5OPc1Sln2A1FajaPwGpZfcWhOdsQMTUbayVbVn1faiNL9twmc5vOVRGVpEJ%2FZ8NUTjEsXx9mylKUoxLgOp0XlKcJ7oMikjsbFsFDODLFNc4Fn6LOsg%2BtVMwgdLBQwCFoUNCJbOelLha9AtxTTbOglfAUVTl3cBFeU%2BYbWoYBv164whD%2FUALTULY9axloquJl489WVz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819245075879748183" target="_blank"><img class="imgg" src="./images/kstnh.png" alt=""></a>
+                <a class="img2" href="https://www.traveloka.com/vi-vn/hotel/detail?spec=23-12-2024.24-12-2024.1.1.HOTEL.9000001099712.Kh%C3%A1ch%20s%E1%BA%A1n%20L%C3%AA%20Phan%20T%C3%A2y%20Ninh.2&contexts=%7B%22inventoryRateKey%22%3A%22povEwB3ZzsU2C6pd%2B6MdU7lDhZRWZSX9buQx9iNNDuQMMZZHiaqIoYnGOMoeI5GUfwxXnYiRzoxM4HX9sDmt9%2FAm1AYn3MeGz8Xcpq5hCtgkoYhCABuc4UBUJdDpIzcBkjYFe7E9Hsd3uMKwzSkUl5pNkVNrbZlWauR9OJSMSOjT2kAb5PFnnUsj4yv%2BE8%2BEEYARo544FpvYjwhyHtkmqI%2BbdPKyeEcnUCrwiPsukDU4xJaQCNZd7Dm9H%2BzKz3SoHlBcSNHFk%2B6M%2Bed81rVbweEHGIhg0KJ7gZAJpw17ItAcEtGPm1fxqcNnBgMR8yyWGGNUd9k9pMHobHBcCaVVTUDn1O10lpJ2RlopF6R4VuVKNZ3VB6iclSVWeiSE7FCQ9htPU2APjSUuwBzhJyv%2BxtXug%2Bqalqkc7m%2F4k63hKPuipA0RkUqvZ9QJ2cHkfPnXQOfU7XSWknZGWikXpHhW5SrG53ANDaQSxM%2FpII6buPZ0zLLLGfTz3n1OENJzW8aJA1WKlSgghebTfuXmfdFpAEmLUDAvXYEKXMiFaoKtuazjLbNL3TVB30dm3kQJjxNBPyAO44ImrkDEeJzVs3REZ%2BsqZNy2gy2CQg6mouAZhrz0htmxvzMBAmj%2B%2Bklb1%2BQJScEfQGTy9by1c8fWdJ%2F4h75oUg4LQXtgiO9HOp6sK2TibMs3MeStsYGb13vxmoV9OJiyKEpmvbxqeIoWXH6gEbGnwVlbwwg%2FxW%2BiGTqx3wPaf%2FFQPUMuzV8rHgwW62egLOsg%2BtVMwgdLBQwCFoUNCG3NXFmQBp4BbPrTrZQo1nuGmnp44piDMHn575K9jx2njI9ir7vSrlmnAiAxgAB5l2Vz0rpvEv6EWvkkZ4rXXXZETKF%2BWtkTq7WP2xt7dVLXkjYFe7E9Hsd3uMKwzSkUl1TQPy7L0IcQO%2FjXM28tbBc2J%2ByuUietFuQmH0%2FNZgLEBJiz%2FkLLIDY2UyHMEiXQJhq2EZIH0HjNxWh0rTSTHL0HvyzPhHjxwybVA61oZttN%22%7D&loginPromo=1&prevSearchId=1819245075879748183" target="_blank"><img class="imgg" src="./images/kstnh2.png" alt=""></a>
+                <i class="fa-solid fa-hotel"></i>
+            </div>
+        </div>   
+    </div>
+
+</div>
+
+
+    
+
+
+</body>
+</html>
