@@ -45,26 +45,48 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+
 let slideIndexx = 1;
+let isPageLoaded = true;  // Biến đánh dấu xem trang đã tải xong hay chưa
 showSlides2(slideIndexx);
+
 function plusSlides2(n) {
   showSlides2(slideIndexx += n);
-}
-function currentSlide2(n) {
-  showSlides2(slideIndexx = n);
-}
-function showSlides2(n) {
-  let i;
-  let slides = document.getElementsByClassName("slide");
-  if (n > slides.length) {slideIndexx = 1}    
-  if (n < 1) {slideIndexx = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-slides[slideIndexx - 1].style.display = "block";
-slides[slideIndexx - 1].scrollIntoView({ behavior: "smooth"});
+  isPageLoaded = false; // Đánh dấu rằng người dùng đã tương tác với slide
 }
 
+function currentSlide2(n) {
+  showSlides2(slideIndexx = n);
+  isPageLoaded = false; // Đánh dấu rằng người dùng đã tương tác với slide
+}
+
+function showSlides2(n) {
+  let i;
+  let slidess = document.getElementsByClassName("slide");
+
+  // Kiểm tra và cập nhật slideIndexx nếu vượt ngoài giới hạn
+  if (n > slidess.length) { slideIndexx = 1; }
+  if (n < 1) { slideIndexx = slidess.length; }
+
+  // Ẩn tất cả các slide
+  for (i = 0; i < slidess.length; i++) {
+    slidess[i].style.display = "none";
+  }
+
+  // Hiển thị slide hiện tại
+  slidess[slideIndexx - 1].style.display = "block";
+
+  // Chỉ cuộn nếu trang đã tải xong và người dùng đã tương tác
+  if (!isPageLoaded) {
+    slidess[slideIndexx - 1].scrollIntoView({ behavior: "smooth" });
+  }
+}
+
+// Đảm bảo không cuộn khi tải lại trang
+window.onload = function() {
+  isPageLoaded = true; // Đánh dấu trang đã tải xong
+};
 
 
 document.getElementById('discoverweb').addEventListener('click', function() {  
