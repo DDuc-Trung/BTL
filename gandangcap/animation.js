@@ -48,17 +48,18 @@ function showSlides(n) {
 
 
 let slideIndexx = 1;
-let isPageLoaded = true;  // Biến đánh dấu xem trang đã tải xong hay chưa
+let isFirstLoad = true;  // Biến kiểm tra lần gọi đầu tiên
 showSlides2(slideIndexx);
 
 function plusSlides2(n) {
   showSlides2(slideIndexx += n);
-  isPageLoaded = false; // Đánh dấu rằng người dùng đã tương tác với slide
 }
 
 function currentSlide2(n) {
   showSlides2(slideIndexx = n);
-  isPageLoaded = false; // Đánh dấu rằng người dùng đã tương tác với slide
+  if (isFirstLoad) {
+    isFirstLoad = false;  // Đánh dấu là đã thực hiện lần gọi đầu tiên
+  }
 }
 
 function showSlides2(n) {
@@ -77,40 +78,45 @@ function showSlides2(n) {
   // Hiển thị slide hiện tại
   slidess[slideIndexx - 1].style.display = "block";
 
-  // Chỉ cuộn nếu trang đã tải xong và người dùng đã tương tác
-  if (!isPageLoaded) {
+  // Cuộn nếu là lần gọi đầu tiên hoặc người dùng đã thay đổi slide
+  if (isFirstLoad || !isPageLoaded) {
     slidess[slideIndexx - 1].scrollIntoView({ behavior: "smooth" });
   }
 }
 
-// Đảm bảo không cuộn khi tải lại trang
+// Đảm bảo không cuộn khi tải lại trang, nhưng vẫn cuộn khi người dùng tương tác
 window.onload = function() {
-  isPageLoaded = true; // Đánh dấu trang đã tải xong
+  // Đảm bảo không cuộn nếu không phải lần gọi đầu tiên
+  isPageLoaded = false;
 };
-
 
 document.getElementById('discoverweb').addEventListener('click', function() {  
   const Slideshow = document.getElementById('Slideshow');
   Slideshow.scrollIntoView({ behavior: "smooth" });
 });
 
-
-
-
-
 const searchInput = document.getElementById("search-text");
 const items = document.querySelectorAll(".item");
 
 searchInput.addEventListener("input", function () {
   const filter = searchInput.value.toLowerCase();
-  items.forEach((item) => {
-    // Kiểm tra xem mục có chứa từ khóa tìm kiếm không
-    if (item.textContent.toLowerCase().includes(filter)) {
-      item.classList.add("show"); // Hiển thị nếu khớp
-    } else {
-      item.classList.remove("show"); // Ẩn nếu không khớp
-    }
-  });
+
+  // Kiểm tra nếu ô tìm kiếm có nội dung
+  if (filter === "") {
+    // Nếu không có nội dung tìm kiếm, ẩn tất cả các mục
+    items.forEach((item) => {
+      item.classList.remove("show");
+    });
+  } else {
+    // Nếu có từ khoá tìm kiếm, chỉ hiển thị các mục phù hợp
+    items.forEach((item) => {
+      if (item.textContent.toLowerCase().includes(filter)) {
+        item.classList.add("show"); // Hiển thị nếu khớp
+      } else {
+        item.classList.remove("show"); // Ẩn nếu không khớp
+      }
+    });
+  }
 });
 
 // Ẩn ô tìm kiếm khi chọn mục
